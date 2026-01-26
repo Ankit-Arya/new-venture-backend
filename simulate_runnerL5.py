@@ -197,23 +197,23 @@ def main():
                             route.update({'CIPK-UP': rail[x].iloc[a, 0]})
                             continue
                             
-                        if rail[x].index[a] in (['ILOK','SBC1']) and rail[x].index[a+1] not in (['ILOK','SBC1']):
-                            route.update({'ILOK-DN': rail[x].iloc[a, 0]})
+                        if rail[x].index[a] in (['Y Terminal 1','SBC1']) and rail[x].index[a+1] not in (['Y Terminal 1','SBC1']):
+                            route.update({'Y Terminal 1-DN': rail[x].iloc[a, 0]})
                             continue
-                        if rail[x].index[a] in (['KTNR','SBC2']) and rail[x].index[a+1] in (['KTNR','SBC2']):
-                            route.update({'KTNR-UP': rail[x].iloc[a, 0]})
+                        if rail[x].index[a] in (['Y Terminal 2','SBC2']) and rail[x].index[a+1] in (['Y Terminal 2','SBC2']):
+                            route.update({'Y Terminal 2-UP': rail[x].iloc[a, 0]})
                             continue
                         if rail[x].index[a] == 'CCDN':
-                            route.update({'MUDK-DN': rail[x].iloc[a, 0]})
+                            route.update({'Crew Control-DN': rail[x].iloc[a, 0]})
                             continue
-                        if rail[x].index[a] in (['KTNR','SBC2']) and rail[x].index[a+1] not in (['KTNR','SBC2']):
-                            route.update({'KTNR-DN': rail[x].iloc[a, 0]})
+                        if rail[x].index[a] in (['Y Terminal 2','SBC2']) and rail[x].index[a+1] not in (['Y Terminal 2','SBC2']):
+                            route.update({'Y Terminal 2-DN': rail[x].iloc[a, 0]})
                             continue
                         if rail[x].index[a] == 'CCUP':
-                            route.update({'MUDK-UP': rail[x].iloc[a, 0]})
+                            route.update({'Crew Control-UP': rail[x].iloc[a, 0]})
                             continue
-                        if rail[x].index[a] in (['ILOK','SBC1']) and rail[x].index[a+1] in (['ILOK','SBC1']):
-                            route.update({'ILOK-UP': rail[x].iloc[a, 0]})
+                        if rail[x].index[a] in (['Y Terminal 1','SBC1']) and rail[x].index[a+1] in (['Y Terminal 1','SBC1']):
+                            route.update({'Y Terminal 1-UP': rail[x].iloc[a, 0]})
                             continue
                     except:
                         print('Reached exception')
@@ -487,12 +487,12 @@ def main():
                                 trip['Trip_End'] = dumtrips['Trip_End'][z]
                                 trip['Trip_Duration'] = dumtrips['Trip_End'][z] - trip['Trip_Start']
                                 trip['LocationRelieve'] = dumtrips['LocationRelieve'][z]
-                                trip['MUDK-DN'] = trip['MUDK-DN'] if pd.isnull(dumtrips['MUDK-DN'][z]) else dumtrips['MUDK-DN'][z]
-                                trip['MUDK-UP'] = trip['MUDK-UP'] if  pd.isnull(dumtrips['MUDK-UP'][z]) else dumtrips['MUDK-UP'][z]
-                                trip['ILOK-DN'] = trip['ILOK-DN'] if pd.isnull(dumtrips['ILOK-DN'][z]) else dumtrips['ILOK-DN'][z]
-                                trip['ILOK-UP'] = trip['ILOK-UP'] if pd.isnull(dumtrips['ILOK-UP'][z]) else dumtrips['ILOK-UP'][z]
-                                trip['KTNR-DN'] = trip['KTNR-DN'] if pd.isnull(dumtrips['KTNR-DN'][z]) else dumtrips['KTNR-DN'][z]
-                                trip['KTNR-UP'] = trip['KTNR-UP'] if pd.isnull(dumtrips['KTNR-UP'][z]) else dumtrips['KTNR-UP'][z]
+                                trip['Crew Control-DN'] = trip['Crew Control-DN'] if pd.isnull(dumtrips['Crew Control-DN'][z]) else dumtrips['Crew Control-DN'][z]
+                                trip['Crew Control-UP'] = trip['Crew Control-UP'] if  pd.isnull(dumtrips['Crew Control-UP'][z]) else dumtrips['Crew Control-UP'][z]
+                                trip['Y Terminal 1-DN'] = trip['Y Terminal 1-DN'] if pd.isnull(dumtrips['Y Terminal 1-DN'][z]) else dumtrips['Y Terminal 1-DN'][z]
+                                trip['Y Terminal 1-UP'] = trip['Y Terminal 1-UP'] if pd.isnull(dumtrips['Y Terminal 1-UP'][z]) else dumtrips['Y Terminal 1-UP'][z]
+                                trip['Y Terminal 2-DN'] = trip['Y Terminal 2-DN'] if pd.isnull(dumtrips['Y Terminal 2-DN'][z]) else dumtrips['Y Terminal 2-DN'][z]
+                                trip['Y Terminal 2-UP'] = trip['Y Terminal 2-UP'] if pd.isnull(dumtrips['Y Terminal 2-UP'][z]) else dumtrips['Y Terminal 2-UP'][z]
                                 trip['CIPK-DN'] = trip['CIPK-DN'] if pd.isnull(dumtrips['CIPK-DN'][z]) else dumtrips['CIPK-DN'][z]
                                 trip['CIPK-UP'] = trip['CIPK-UP'] if pd.isnull(dumtrips['CIPK-UP'][z]) else dumtrips['CIPK-UP'][z]
 
@@ -519,12 +519,12 @@ def main():
                                 trip['Trip_End'] = dumtrips['Trip_End'][z]
                                 trip['Trip_Duration'] = dumtrips['Trip_End'][z] - trip['Trip_Start']
                                 trip['LocationRelieve'] = dumtrips['LocationRelieve'][z]
-                                trip['MUDK-DN'] = trip['MUDK-DN'] if pd.isnull(dumtrips['MUDK-DN'][z]) else dumtrips['MUDK-DN'][z]
-                                trip['MUDK-UP'] = trip['MUDK-UP'] if  pd.isnull(dumtrips['MUDK-UP'][z]) else dumtrips['MUDK-UP'][z]
-                                trip['ILOK-DN'] = trip['ILOK-DN'] if pd.isnull(dumtrips['ILOK-DN'][z]) else dumtrips['ILOK-DN'][z]
-                                trip['ILOK-UP'] = trip['ILOK-UP'] if pd.isnull(dumtrips['ILOK-UP'][z]) else dumtrips['ILOK-UP'][z]
-                                trip['KTNR-DN'] = trip['KTNR-DN'] if pd.isnull(dumtrips['KTNR-DN'][z]) else dumtrips['KTNR-DN'][z]
-                                trip['KTNR-UP'] = trip['KTNR-UP'] if pd.isnull(dumtrips['KTNR-UP'][z]) else dumtrips['KTNR-UP'][z]
+                                trip['Crew Control-DN'] = trip['Crew Control-DN'] if pd.isnull(dumtrips['Crew Control-DN'][z]) else dumtrips['Crew Control-DN'][z]
+                                trip['Crew Control-UP'] = trip['Crew Control-UP'] if  pd.isnull(dumtrips['Crew Control-UP'][z]) else dumtrips['Crew Control-UP'][z]
+                                trip['Y Terminal 1-DN'] = trip['Y Terminal 1-DN'] if pd.isnull(dumtrips['Y Terminal 1-DN'][z]) else dumtrips['Y Terminal 1-DN'][z]
+                                trip['Y Terminal 1-UP'] = trip['Y Terminal 1-UP'] if pd.isnull(dumtrips['Y Terminal 1-UP'][z]) else dumtrips['Y Terminal 1-UP'][z]
+                                trip['Y Terminal 2-DN'] = trip['Y Terminal 2-DN'] if pd.isnull(dumtrips['Y Terminal 2-DN'][z]) else dumtrips['Y Terminal 2-DN'][z]
+                                trip['Y Terminal 2-UP'] = trip['Y Terminal 2-UP'] if pd.isnull(dumtrips['Y Terminal 2-UP'][z]) else dumtrips['Y Terminal 2-UP'][z]
                                 trip['CIPK-DN'] = trip['CIPK-DN'] if pd.isnull(dumtrips['CIPK-DN'][z]) else dumtrips['CIPK-DN'][z]
                                 trip['CIPK-UP'] = trip['CIPK-UP'] if pd.isnull(dumtrips['CIPK-UP'][z]) else dumtrips['CIPK-UP'][z]
                                 
@@ -553,10 +553,10 @@ def main():
         comptrip.reset_index(drop= True, inplace= True)
         trips1 = comptrip.copy()
 
-        # For KTNR reversal train put time in ILOK column blank
+        # For Y Terminal 2 reversal train put time in Y Terminal 1 column blank
         for i in range(len(trips1)):
-            if pd.notnull(trips1.iloc[i]['KTNR-DN']) | pd.notnull(trips1.iloc[i]['KTNR-UP']):
-                trips1.loc[i,'ILOK-DN'] = pd.NaT
+            if pd.notnull(trips1.iloc[i]['Y Terminal 2-DN']) | pd.notnull(trips1.iloc[i]['Y Terminal 2-UP']):
+                trips1.loc[i,'Y Terminal 1-DN'] = pd.NaT
 
         comptrip.to_excel(f"temp_files/{execution_id}comptrip.xlsx")
         update_status(execution_id, "STAGE 1 complete", "completed")
@@ -592,10 +592,10 @@ def main():
             df.at[index, 'Same Jurisdiction'] = 'yes'
             if pd.notna(df.at[index, 'TrainSBC1']) and df.at[index, 'TrainSBC1'] != '0':
                 df.at[index, 'Step Back Rake'] = df.at[index, 'TrainSBC1']
-                df.at[index, 'Step Back Location'] = 'ILOK'
+                df.at[index, 'Step Back Location'] = 'Y Terminal 1'
             elif pd.notna(df.at[index, 'TrainSBC2']) and df.at[index, 'TrainSBC2'] != '0':
                 df.at[index, 'Step Back Rake'] = df.at[index, 'TrainSBC2']
-                df.at[index, 'Step Back Location'] = 'KTNR'
+                df.at[index, 'Step Back Location'] = 'Y Terminal 2'
             else:
                 df.at[index, 'Step Back Rake'] = 'No StepBack'
                 df.at[index, 'Step Back Location'] = 'No StepBack'
@@ -604,7 +604,7 @@ def main():
             else:
                 df.at[index, 'Direction'] = 'DN' if df.at[index, 'LocationRelieve'] == 'CCDN' else 'UP'
 
-        cols = ['MUDK-UP', 'ILOK-DN','KTNR-DN', 'KTNR-UP', 'ILOK-UP', 'MUDK-DN', 'CIPK-UP', 'CIPK-DN']
+        cols = ['Crew Control-UP', 'Y Terminal 1-DN','Y Terminal 2-DN', 'Y Terminal 2-UP', 'Y Terminal 1-UP', 'Crew Control-DN', 'CIPK-UP', 'CIPK-DN']
         route = ''
 
         for i in range(len(df)):   
@@ -619,10 +619,10 @@ def main():
             if len(sorted_trip_dict) > 1: # Ignore single station time value in route column
                 route += 'Train_No/' + str(df.loc[i, 'Train_No']) + " -- "
                 for key, value in sorted_trip_dict.items():
-                    if df.loc[i, 'Step Back Location'] == "ILOK":
-                        SB_location = "ILOK-UP"
-                    if df.loc[i, 'Step Back Location'] == "KTNR":
-                        SB_location = "KTNR-UP"
+                    if df.loc[i, 'Step Back Location'] == "Y Terminal 1":
+                        SB_location = "Y Terminal 1-UP"
+                    if df.loc[i, 'Step Back Location'] == "Y Terminal 2":
+                        SB_location = "Y Terminal 2-UP"
                     if df.loc[i, 'Step Back Location'] == "No StepBack":
                         SB_location = "No StepBack"
                     
@@ -1313,11 +1313,11 @@ def main():
 
         duty2.reset_index(drop=True, inplace=True)
 
-        duty2.replace('CCUP','MUDK-UP',regex=True,inplace=True)
-        duty2.replace('CCDN','MUDK-DN',regex=True,inplace=True)
+        duty2.replace('CCUP','Crew Control-UP',regex=True,inplace=True)
+        duty2.replace('CCDN','Crew Control-DN',regex=True,inplace=True)
 
-        duty2.replace('SBC1','ILOK',regex=True,inplace=True)
-        duty2.replace('SBC2','KTNR',regex=True,inplace=True)
+        duty2.replace('SBC1','Y Terminal 1',regex=True,inplace=True)
+        duty2.replace('SBC2','Y Terminal 2',regex=True,inplace=True)
 
         duty2['ACTUAL_DUTYHOURS'] = pd.to_timedelta(duty2['ACTUAL_DUTYHOURS'], errors='coerce')
 
