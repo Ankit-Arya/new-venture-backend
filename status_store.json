@@ -1,0 +1,1600 @@
+{
+  "60991431-9b9c-4293-a084-5cb880554597": [
+    {
+      "name": "['104', '102', '103', '106', '109', '111', '112', '116', '117', '108', '101', '119', '114', '121', '105', '122', '118', '123', '125', '126', '115', '127', '128', '107', '129', '110', '130', '113', '131', '132', '133', '120', '124', '135', '136', '137', '138', '134']",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "  File \"C:\\Users\\ankit\\dmrc-fastapi\\css-fastapi\\simulate_runner.py\", line 133, in main",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "    update_status(execution_id, f\"Unique Train IDs: {ids}\", \"WIP\")",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'status_store.json.tmp' -> 'status_store.json'",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "During handling of the above exception, another exception occurred:",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "Traceback (most recent call last):",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "  File \"C:\\Users\\ankit\\dmrc-fastapi\\css-fastapi\\simulate_runner.py\", line 1508, in <module>",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "    main()",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "  File \"C:\\Users\\ankit\\dmrc-fastapi\\css-fastapi\\simulate_runner.py\", line 1504, in main",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "    update_status(execution_id, \"Pipeline Broke--\", \"error\", str(e))",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "  File \"C:\\Users\\ankit\\dmrc-fastapi\\css-fastapi\\helpers.py\", line 95, in update_status",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "    os.replace(tmp_file, STATUS_FILE)   # atomic replace",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "PermissionError: [WinError 5] Access is denied: 'status_store.json.tmp' -> 'status_store.json'",
+      "status": "error",
+      "message": ""
+    },
+    {
+      "name": "Process exited 1",
+      "status": "error",
+      "message": ""
+    }
+  ],
+  "cfc866d9-06c1-4921-a82c-d6105f890519": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your execution ID is cfc866d9-06c1-4921-a82c-d6105f890519",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your UID for future ref - cfc866d9-06c1-4921-a82c-d6105f890519",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Reading Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Unique Train IDs: ['104', '102', '103', '106', '109', '111', '112', '116', '117', '108', '101', '119', '114', '121', '105', '122', '118', '123', '125', '126', '115', '127', '128', '107', '129', '110', '130', '113', '131', '132', '133', '120', '124', '135', '136', '137', '138', '134']",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Trip Analysis Complete",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Saved complete Trip Data",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "508e3dff-6472-4fd4-8933-96ab6d3c95e1": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your execution ID is 508e3dff-6472-4fd4-8933-96ab6d3c95e1",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your UID for future ref - 508e3dff-6472-4fd4-8933-96ab6d3c95e1",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Reading Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Unique Train IDs: ['102', '105', '109', '111', '112', '116', '117', '108', '101', '119', '114', '121', '104', '122', '118', '103', '123', '107', '125', '126', '115', '127', '128', '106', '129', '110', '130', '113', '131', '132', '133', '120', '124', '135', '136', '137', '138', '134']",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Trip Analysis Complete",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Saved complete Trip Data",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "e3842c36-8258-460b-909a-4ab53e011b32": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your execution ID is e3842c36-8258-460b-909a-4ab53e011b32",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your UID for future ref - e3842c36-8258-460b-909a-4ab53e011b32",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Reading Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Unique Train IDs: ['104', '102', '103', '108', '113', '115', '116', '107', '112', '101', '105', '117', '111', '119', '110', '120', '106', '121', '109', '114', '122', '118']",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Trip Analysis Complete",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Saved complete Trip Data",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "7e8ed52c-e091-4550-9a3c-590c6a94a08e": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your execution ID is 7e8ed52c-e091-4550-9a3c-590c6a94a08e",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Your UID for future ref - 7e8ed52c-e091-4550-9a3c-590c6a94a08e",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Reading Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Unique Train IDs: ['104', '102', '103', '108', '113', '115', '116', '107', '112', '101', '105', '117', '111', '119', '110', '120', '106', '121', '109', '114', '122', '118']",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Trip Analysis Complete",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Saved complete Trip Data",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "30e6e792-a3ea-4072-9091-2220adb7de2f": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 30e6e792-a3ea-4072-9091-2220adb7de2f",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "6801db1a-79b3-40ca-b23b-99d669340499": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 6801db1a-79b3-40ca-b23b-99d669340499",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    },
+    {
+      "name": "Cancel Failed",
+      "status": "error",
+      "message": "[WinError 5] Access is denied"
+    }
+  ],
+  "296b56ac-730b-4225-9b85-183dbf76fc3a": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 296b56ac-730b-4225-9b85-183dbf76fc3a",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "2884ea59-3df6-4431-a643-a53e269516f9": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 2884ea59-3df6-4431-a643-a53e269516f9",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "f2a6ead6-6c5c-4065-8ea7-b5c31479fabb": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - f2a6ead6-6c5c-4065-8ea7-b5c31479fabb",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "1540cff6-5e82-4454-bcd5-4c5d778e32f4": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 1540cff6-5e82-4454-bcd5-4c5d778e32f4",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "1f33d37c-a28b-444c-9300-1d7c803663b7": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 1f33d37c-a28b-444c-9300-1d7c803663b7",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "921dbebc-b205-442f-b3dc-bf96005a4dec": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 921dbebc-b205-442f-b3dc-bf96005a4dec",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    },
+    {
+      "name": "Cancel Failed",
+      "status": "error",
+      "message": "[WinError 5] Access is denied"
+    }
+  ],
+  "4381994b-21f6-40d3-b8a6-12bc9b1ffce5": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 4381994b-21f6-40d3-b8a6-12bc9b1ffce5",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    },
+    {
+      "name": "Cancel Failed",
+      "status": "error",
+      "message": "[WinError 5] Access is denied"
+    }
+  ],
+  "b71fb68f-03eb-4c87-9ddb-486710f2fe3f": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - b71fb68f-03eb-4c87-9ddb-486710f2fe3f",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "749d100a-1942-420b-9380-b2892fccc860": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 749d100a-1942-420b-9380-b2892fccc860",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "e6acf264-d1e2-44fc-bf75-e3083cf5096d": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - e6acf264-d1e2-44fc-bf75-e3083cf5096d",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "68c7e800-dbd1-4185-a5c5-49902ccf540c": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 68c7e800-dbd1-4185-a5c5-49902ccf540c",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "85cfc866-153c-43a2-9bff-69fb0615a88c": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 85cfc866-153c-43a2-9bff-69fb0615a88c",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "f3e74402-bbbb-4fb7-931f-7fd475de03dc": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - f3e74402-bbbb-4fb7-931f-7fd475de03dc",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "dfb3f9cb-9652-42cf-ba28-fcee7489fa30": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - dfb3f9cb-9652-42cf-ba28-fcee7489fa30",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "47245c1e-b2c6-48db-ab1a-15f7af766a82": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 47245c1e-b2c6-48db-ab1a-15f7af766a82",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "No columns to parse from file"
+    }
+  ],
+  "8fdef544-73ec-4d34-b0c9-67fad1e6758f": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 8fdef544-73ec-4d34-b0c9-67fad1e6758f",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "Command '['python', 'multiprocessing_duty_generator.py', '8fdef544-73ec-4d34-b0c9-67fad1e6758f']' returned non-zero exit status 1."
+    }
+  ],
+  "83b996e2-e8e8-4b86-882a-62b4df9c493c": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 83b996e2-e8e8-4b86-882a-62b4df9c493c",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "Command '['python', 'multiprocessing_duty_generator.py', '83b996e2-e8e8-4b86-882a-62b4df9c493c']' returned non-zero exit status 1."
+    }
+  ],
+  "3da63146-4b65-45f3-8760-685d6dac277a": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 3da63146-4b65-45f3-8760-685d6dac277a",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "Command '['python', 'multiprocessing_duty_generator.py', '3da63146-4b65-45f3-8760-685d6dac277a']' returned non-zero exit status 1."
+    }
+  ],
+  "4166220a-ff0f-45be-81ad-25f1f183d85b": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "1c854af8-f31c-46e1-83bb-a88ab08ed2f1": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "bd604f92-abe7-4a1f-846c-aee89a6f2e07": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "05c8ea2e-0d64-4057-9616-4ace930782c3": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "3100d8cf-2dfa-4c05-8fc2-b4559e79cf8d": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 3100d8cf-2dfa-4c05-8fc2-b4559e79cf8d",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "c2bd692f-3f21-4dbe-a0b3-9203919d5722": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - c2bd692f-3f21-4dbe-a0b3-9203919d5722",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "642c6288-a14a-4d11-a106-319983af01df": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "c752af87-fae6-41d2-ad6e-bf00c4265a5d": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "expected str, bytes or os.PathLike object, not int",
+      "status": "error",
+      "message": ""
+    }
+  ],
+  "acf382fd-43d1-4f56-b2da-c481ceedcbe8": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - acf382fd-43d1-4f56-b2da-c481ceedcbe8",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Dataset Generation successfull with 725858 records",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Starting Optimization Process - This will take time - Sit tight",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "53a8a9eb-9899-450c-8a6f-1a549ca814fc": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 53a8a9eb-9899-450c-8a6f-1a549ca814fc",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Dataset Generation successfull with 725858 records",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Starting Optimization Process - This will take time - Sit tight",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "ee53afe9-97e6-41fc-bb76-b982e5ecee8e": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "9a3d7bae-63ab-4c8e-8024-bbe930ca6616": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "1475cfb7-a0ab-4799-b334-ac06e8071769": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 1475cfb7-a0ab-4799-b334-ac06e8071769",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "34c27073-2ece-4a9b-a571-6620928e5fb5": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 34c27073-2ece-4a9b-a571-6620928e5fb5",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Dataset Generation successfull with 600532 records",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Starting Optimization Process - This will take time - Sit tight",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "4f6e870b-3f01-4cab-971e-2e4ddd7ca4eb": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Cancel Failed",
+      "status": "error",
+      "message": "[WinError 5] Access is denied"
+    }
+  ],
+  "b7994dbc-f6c5-476a-b9e4-c011a450780d": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "397fc1bd-a8a6-41bf-870c-270964a00e57": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 397fc1bd-a8a6-41bf-870c-270964a00e57",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Dataset Generation successfull with 617852 records",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Starting Optimization Process - This will take time - Sit tight",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Success! Optimization Complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating Trip Chart Format",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "b10475fb-35e3-4a70-8054-5d0af3fb42ff": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - b10475fb-35e3-4a70-8054-5d0af3fb42ff",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre-Processing Time Table",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pre=Processing and analysis complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Creating duty dataset to be optimized - This might take some time",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Dataset Generation successfull with 617852 records",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "Starting Optimization Process - This will take time - Sit tight",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "0dd17fec-3681-49eb-a6f5-f9e82c60e887": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 0dd17fec-3681-49eb-a6f5-f9e82c60e887",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "0ae7c849-551c-423b-84d1-9b135e5ea6c0": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 0ae7c849-551c-423b-84d1-9b135e5ea6c0",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "f2413687-a51f-4263-b8a1-506549779c33": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - f2413687-a51f-4263-b8a1-506549779c33",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC1startHour' is not defined"
+    }
+  ],
+  "8b4c1df8-aa39-4516-8a09-cc20883a1457": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 8b4c1df8-aa39-4516-8a09-cc20883a1457",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "627d35a3-9599-4bf0-8713-2fd266f8f7b2": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 627d35a3-9599-4bf0-8713-2fd266f8f7b2",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "[Errno 22] Invalid argument"
+    }
+  ],
+  "64e9b87e-f4bc-4af8-85b4-cd73b92d4027": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 64e9b87e-f4bc-4af8-85b4-cd73b92d4027",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "15cd9ef2-8527-4772-a3b8-06191e001d8f": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 15cd9ef2-8527-4772-a3b8-06191e001d8f",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Issue in Train 524",
+      "status": "error",
+      "message": "Location: DEPOT, Time: 22:34:56"
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "553b487d-8a01-40d7-b0f6-c017efb91743": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 553b487d-8a01-40d7-b0f6-c017efb91743",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "95669996-96e7-4c6e-b6af-98e71b8c7b8a": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 95669996-96e7-4c6e-b6af-98e71b8c7b8a",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "ab211aba-a376-4aa6-baef-072f86aa7294": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - ab211aba-a376-4aa6-baef-072f86aa7294",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC1startHour' is not defined"
+    }
+  ],
+  "6fb8bf95-f413-4bbd-8b05-5568e54ba66a": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 6fb8bf95-f413-4bbd-8b05-5568e54ba66a",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "name 'SBC2startHour' is not defined"
+    }
+  ],
+  "02cf3cb5-35cd-4d37-92f9-2c261045d0b0": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "local variable 'time' referenced before assignment"
+    }
+  ],
+  "9debc69f-6e13-49ca-97cf-b8259ecc4b9f": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "local variable 'time' referenced before assignment"
+    }
+  ],
+  "7617fc8e-5c35-4dfc-8204-7ea9d40c8544": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "local variable 'time' referenced before assignment"
+    }
+  ],
+  "52fd469b-2666-4411-85a6-2b324650bb83": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "local variable 'time' referenced before assignment"
+    }
+  ],
+  "d4d2b208-1e7d-43ff-8a4e-534beedaae38": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - d4d2b208-1e7d-43ff-8a4e-534beedaae38",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "461033ce-1879-430f-8aec-b2cfc2b05f01": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 461033ce-1879-430f-8aec-b2cfc2b05f01",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "40778d53-e279-45bb-bdf9-795c97687493": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 40778d53-e279-45bb-bdf9-795c97687493",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "f7823151-f420-4ccc-878e-6eba04ceb38b": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "e75473b9-e950-42d4-bcd1-89ec375d4853": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    }
+  ],
+  "d820c83b-39b6-4911-a5c9-c1e280b38354": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - d820c83b-39b6-4911-a5c9-c1e280b38354",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    },
+    {
+      "name": "Cancel Failed",
+      "status": "error",
+      "message": "[WinError 5] Access is denied"
+    }
+  ]
+}
