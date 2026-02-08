@@ -1,0 +1,315 @@
+Duty_No,Sign_On,SignOn_Location,Sign_Off,SignOff_Location,ACTUAL_DUTYHOURS,Train_No,LocationPick,Trip_Start,LocationRelieve,Trip_End,Trip_Duration,Service time,breaks,Single_Run,Total_Run,Step Back Rake,Step Back Location,ROUTE-VIA
+1,02:15,DEPOT,10:04,Crew Control-UP,07:49,501,DEPOT,02:40,Crew Control-UP,03:00,00:20,20,00:00,01:55,05:13,No StepBack,No StepBack,
+1,,,,,,501,Crew Control-UP,03:00,Crew Control-DN,04:35,01:35,95,01:08,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/03:00 -- Y Terminal 2-UP/03:30 -- Y Terminal 2-DN/04:00 -- Crew Control-DN/04:35 -- 
+1,,,,,,503,Crew Control-UP,05:43,Crew Control-DN,06:47,01:04,64,00:00,02:44,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/05:43 -- Y Terminal 2-UP/06:11 -- Y Terminal 2-DN/06:20 -- Crew Control-DN/06:47 -- 
+1,,,,,,503,Crew Control-DN,06:47,Crew Control-UP,07:26,00:38,38,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/06:47 -- Crew Control-UP/07:26 -- 
+1,,,,,,503,Crew Control-UP,07:26,Crew Control-DN,08:28,01:02,62,00:52,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/07:26 -- Y Terminal 1-UP/07:55 -- Y Terminal 1-DN/07:58 -- Y Terminal 2-DN/08:00 -- Crew Control-DN/08:28 -- 
+1,,,,,,512,Crew Control-DN,09:20,Crew Control-UP,09:54,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/09:20 -- Crew Control-UP/09:54 -- 
+2,02:25,DEPOT1,10:29,Crew Control-DN,08:04,503,DEPOT1,02:50,Crew Control-UP,03:35,00:46,46,01:00,00:46,06:00,No StepBack,No StepBack,
+2,,,,,,501,Crew Control-DN,04:35,Crew Control-UP,05:15,00:40,40,00:00,02:36,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/04:35 -- Crew Control-UP/05:15 -- 
+2,,,,,,501,Crew Control-UP,05:15,Crew Control-DN,06:35,01:20,80,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/05:15 -- Y Terminal 1-UP/05:45 -- Y Terminal 1-DN/06:00 -- Y Terminal 2-DN/06:03 -- Crew Control-DN/06:35 -- 
+2,,,,,,501,Crew Control-DN,06:35,Crew Control-UP,07:11,00:36,36,00:30,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/06:35 -- Crew Control-UP/07:11 -- 
+2,,,,,,504,Crew Control-UP,07:41,Crew Control-DN,08:43,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/07:41 -- Y Terminal 1-UP/08:10 -- Y Terminal 1-DN/08:13 -- Y Terminal 2-DN/08:15 -- Crew Control-DN/08:43 -- 
+2,,,,,,504,Crew Control-DN,08:43,Crew Control-UP,09:17,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/08:43 -- Crew Control-UP/09:17 -- 
+2,,,,,,504,Crew Control-UP,09:17,Crew Control-DN,10:19,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/09:17 -- Y Terminal 2-UP/09:45 -- Y Terminal 2-DN/09:52 -- Crew Control-DN/10:19 -- 
+3,02:30,DEPOT,09:49,Crew Control-UP,07:19,504,DEPOT,02:55,Crew Control-DN,03:15,00:20,20,00:00,02:25,05:20,No StepBack,No StepBack,
+3,,,,,,504,Crew Control-DN,03:15,Crew Control-UP,03:55,00:41,41,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/03:15 -- Crew Control-UP/03:55 -- 
+3,,,,,,504,Crew Control-UP,03:55,Crew Control-DN,05:19,01:24,84,00:30,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/03:55 -- Y Terminal 1-UP/04:25 -- Y Terminal 1-DN/04:50 -- Y Terminal 2-DN/04:52 -- Crew Control-DN/05:19 -- 
+3,,,,,,506,Crew Control-DN,05:49,Crew Control-UP,06:27,00:38,38,00:00,02:21,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/05:49 -- Crew Control-UP/06:27 -- 
+3,,,,,,506,Crew Control-UP,06:27,Crew Control-DN,07:36,01:09,69,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/06:27 -- Y Terminal 2-UP/06:55 -- Y Terminal 2-DN/07:08 -- Crew Control-DN/07:36 -- 
+3,,,,,,506,Crew Control-DN,07:36,Crew Control-UP,08:10,00:34,34,00:55,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/07:36 -- Crew Control-UP/08:10 -- 
+3,,,,,,505,Crew Control-DN,09:05,Crew Control-UP,09:39,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/09:05 -- Crew Control-UP/09:39 -- 
+4,02:35,Terminal,10:26,Crew Control-UP,07:51,502,Terminal,03:00,Crew Control-UP,03:23,00:24,24,00:00,01:50,05:47,No StepBack,No StepBack,
+4,,,,,,502,Crew Control-UP,03:23,Crew Control-DN,04:49,01:26,86,00:30,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/03:23 -- Y Terminal 1-UP/03:53 -- Y Terminal 1-DN/04:20 -- Y Terminal 2-DN/04:22 -- Crew Control-DN/04:49 -- 
+4,,,,,,504,Crew Control-DN,05:19,Crew Control-UP,05:55,00:36,36,00:00,02:21,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/05:19 -- Crew Control-UP/05:55 -- 
+4,,,,,,504,Crew Control-UP,05:55,Crew Control-DN,07:07,01:11,71,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/05:55 -- Y Terminal 2-UP/06:23 -- Y Terminal 2-DN/06:39 -- Crew Control-DN/07:07 -- 
+4,,,,,,504,Crew Control-DN,07:07,Crew Control-UP,07:41,00:34,34,00:59,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/07:07 -- Crew Control-UP/07:41 -- 
+4,,,,,,508,Crew Control-UP,08:40,Crew Control-DN,09:42,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/08:40 -- Y Terminal 1-UP/09:10 -- Y Terminal 1-DN/09:12 -- Y Terminal 2-DN/09:14 -- Crew Control-DN/09:42 -- 
+4,,,,,,508,Crew Control-DN,09:42,Crew Control-UP,10:16,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/09:42 -- Crew Control-UP/10:16 -- 
+5,03:05,DEPOT1,11:03,Crew Control-UP,07:58,505,DEPOT1,03:30,Crew Control-UP,04:15,00:46,46,00:00,02:48,06:02,No StepBack,No StepBack,
+5,,,,,,505,Crew Control-UP,04:15,Crew Control-DN,05:27,01:12,72,00:00,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/04:15 -- Y Terminal 2-UP/04:43 -- Y Terminal 2-DN/05:00 -- Crew Control-DN/05:27 -- 
+5,,,,,,505,Crew Control-DN,05:27,Crew Control-UP,06:17,00:50,50,00:30,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/05:27 -- Crew Control-UP/06:17 -- 
+5,,,,,,507,Crew Control-UP,06:47,Crew Control-DN,07:51,01:04,64,00:00,02:40,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/06:47 -- Y Terminal 2-UP/07:15 -- Y Terminal 2-DN/07:23 -- Crew Control-DN/07:51 -- 
+5,,,,,,507,Crew Control-DN,07:51,Crew Control-UP,08:25,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/07:51 -- Crew Control-UP/08:25 -- 
+5,,,,,,507,Crew Control-UP,08:25,Crew Control-DN,09:27,01:02,62,00:52,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/08:25 -- Y Terminal 1-UP/08:55 -- Y Terminal 1-DN/08:58 -- Y Terminal 2-DN/09:00 -- Crew Control-DN/09:27 -- 
+5,,,,,,504,Crew Control-DN,10:19,Crew Control-UP,10:53,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/10:19 -- Crew Control-UP/10:53 -- 
+6,03:20,Crew Control-UP,10:22,Crew Control-DN,07:02,503,Crew Control-UP,03:35,Crew Control-DN,05:01,01:26,86,00:00,02:08,04:56,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/03:35 -- Y Terminal 2-UP/04:03 -- Y Terminal 2-DN/04:30 -- Crew Control-DN/05:01 -- 
+6,,,,,,503,Crew Control-DN,05:01,Crew Control-UP,05:43,00:42,42,00:34,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/05:01 -- Crew Control-UP/05:43 -- 
+6,,,,,,505,Crew Control-UP,06:17,Crew Control-DN,07:29,01:12,72,00:00,01:46,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/06:17 -- Y Terminal 1-UP/06:47 -- Y Terminal 1-DN/06:59 -- Y Terminal 2-DN/07:01 -- Crew Control-DN/07:29 -- 
+6,,,,,,505,Crew Control-DN,07:29,Crew Control-UP,08:03,00:34,34,01:07,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/07:29 -- Crew Control-UP/08:03 -- 
+6,,,,,,510,Crew Control-UP,09:10,Crew Control-DN,10:12,01:02,62,00:00,01:02,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/09:10 -- Y Terminal 1-UP/09:39 -- Y Terminal 1-DN/09:42 -- Y Terminal 2-DN/09:44 -- Crew Control-DN/10:12 -- 
+7,03:15,DEPOT,11:21,Crew Control-DN,08:06,506,DEPOT,03:40,Crew Control-DN,04:00,00:20,20,00:00,02:10,05:58,No StepBack,No StepBack,
+7,,,,,,506,Crew Control-DN,04:00,Crew Control-UP,04:35,00:36,36,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/04:00 -- Crew Control-UP/04:35 -- 
+7,,,,,,506,Crew Control-UP,04:35,Crew Control-DN,05:49,01:14,74,00:38,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/04:35 -- Y Terminal 1-UP/05:05 -- Y Terminal 1-DN/05:20 -- Y Terminal 2-DN/05:22 -- Crew Control-DN/05:49 -- 
+7,,,,,,508,Crew Control-DN,06:27,Crew Control-UP,07:03,00:36,36,00:00,02:12,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/06:27 -- Crew Control-UP/07:03 -- 
+7,,,,,,508,Crew Control-UP,07:03,Crew Control-DN,08:06,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/07:03 -- Y Terminal 2-UP/07:31 -- Y Terminal 2-DN/07:38 -- Crew Control-DN/08:06 -- 
+7,,,,,,508,Crew Control-DN,08:06,Crew Control-UP,08:40,00:34,34,00:55,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/08:06 -- Crew Control-UP/08:40 -- 
+7,,,,,,509,Crew Control-DN,09:35,Crew Control-UP,10:09,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/09:35 -- Crew Control-UP/10:09 -- 
+7,,,,,,509,Crew Control-UP,10:09,Crew Control-DN,11:11,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/10:09 -- Y Terminal 1-UP/10:39 -- Y Terminal 1-DN/10:41 -- Y Terminal 2-DN/10:43 -- Crew Control-DN/11:11 -- 
+8,03:45,DEPOT1,11:48,Crew Control-UP,08:03,507,DEPOT1,04:10,Crew Control-UP,04:55,00:46,46,00:00,02:38,05:50,No StepBack,No StepBack,
+8,,,,,,507,Crew Control-UP,04:55,Crew Control-DN,06:07,01:12,72,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/04:55 -- Y Terminal 2-UP/05:23 -- Y Terminal 2-DN/05:40 -- Crew Control-DN/06:07 -- 
+8,,,,,,507,Crew Control-DN,06:07,Crew Control-UP,06:47,00:40,40,00:31,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/06:07 -- Crew Control-UP/06:47 -- 
+8,,,,,,502,Crew Control-UP,07:18,Crew Control-DN,08:21,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/07:18 -- Y Terminal 2-UP/07:46 -- Y Terminal 2-DN/07:53 -- Crew Control-DN/08:21 -- 
+8,,,,,,502,Crew Control-DN,08:21,Crew Control-UP,08:55,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/08:21 -- Crew Control-UP/08:55 -- 
+8,,,,,,502,Crew Control-UP,08:55,Crew Control-DN,09:57,01:02,62,01:07,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/08:55 -- Y Terminal 1-UP/09:24 -- Y Terminal 1-DN/09:27 -- Y Terminal 2-DN/09:29 -- Crew Control-DN/09:57 -- 
+8,,,,,,507,Crew Control-DN,11:04,Crew Control-UP,11:38,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/11:04 -- Crew Control-UP/11:38 -- 
+9,04:34,Crew Control-DN,11:40,Crew Control-UP,07:06,502,Crew Control-DN,04:49,Crew Control-UP,05:35,00:46,46,00:00,02:29,05:07,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/04:49 -- Crew Control-UP/05:35 -- 
+9,,,,,,502,Crew Control-UP,05:35,Crew Control-DN,06:44,01:09,69,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/05:35 -- Y Terminal 1-UP/06:05 -- Y Terminal 1-DN/06:14 -- Y Terminal 2-DN/06:16 -- Crew Control-DN/06:44 -- 
+9,,,,,,502,Crew Control-DN,06:44,Crew Control-UP,07:18,00:34,34,00:37,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/06:44 -- Crew Control-UP/07:18 -- 
+9,,,,,,511,Crew Control-UP,07:55,Crew Control-DN,08:58,01:02,62,00:56,01:02,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/07:55 -- Y Terminal 1-UP/08:25 -- Y Terminal 1-DN/08:28 -- Y Terminal 2-DN/08:30 -- Crew Control-DN/08:58 -- 
+9,,,,,,512,Crew Control-UP,09:54,Crew Control-DN,10:56,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/09:54 -- Y Terminal 1-UP/10:24 -- Y Terminal 1-DN/10:27 -- Y Terminal 2-DN/10:29 -- Crew Control-DN/10:56 -- 
+9,,,,,,512,Crew Control-DN,10:56,Crew Control-UP,11:30,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/10:56 -- Crew Control-UP/11:30 -- 
+10,04:33,DEPOT1,12:47,Crew Control-UP,08:14,508,DEPOT1,04:58,Crew Control-UP,05:29,00:31,31,00:00,01:29,05:43,No StepBack,No StepBack,
+10,,,,,,508,Crew Control-UP,05:29,Crew Control-DN,06:27,00:58,58,00:44,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/05:29 -- Y Terminal 2-UP/05:57 -- Y Terminal 2-DN/06:00 -- Crew Control-DN/06:27 -- 
+10,,,,,,501,Crew Control-UP,07:11,Crew Control-DN,08:13,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/07:11 -- Y Terminal 1-UP/07:41 -- Y Terminal 1-DN/07:43 -- Y Terminal 2-DN/07:45 -- Crew Control-DN/08:13 -- 
+10,,,,,,501,Crew Control-DN,08:13,Crew Control-UP,08:47,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/08:13 -- Crew Control-UP/08:47 -- 
+10,,,,,,501,Crew Control-UP,08:47,Crew Control-DN,09:50,01:02,62,01:11,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/08:47 -- Y Terminal 2-UP/09:15 -- Y Terminal 2-DN/09:22 -- Crew Control-DN/09:50 -- 
+10,,,,,,513,Crew Control-UP,11:01,Crew Control-DN,12:03,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/11:01 -- Y Terminal 2-UP/11:29 -- Y Terminal 2-DN/11:35 -- Crew Control-DN/12:03 -- 
+10,,,,,,513,Crew Control-DN,12:03,Crew Control-UP,12:37,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/12:03 -- Crew Control-UP/12:37 -- 
+11,05:03,DEPOT,13:09,Crew Control-UP,08:06,510,DEPOT,05:28,Crew Control-UP,05:48,00:20,20,00:00,02:06,05:52,No StepBack,No StepBack,
+11,,,,,,510,Crew Control-UP,05:48,Crew Control-DN,06:59,01:12,72,00:00,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/05:48 -- Y Terminal 1-UP/06:17 -- Y Terminal 1-DN/06:29 -- Y Terminal 2-DN/06:31 -- Crew Control-DN/06:59 -- 
+11,,,,,,510,Crew Control-DN,06:59,Crew Control-UP,07:33,00:34,34,00:37,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/06:59 -- Crew Control-UP/07:33 -- 
+11,,,,,,506,Crew Control-UP,08:10,Crew Control-DN,09:13,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/08:10 -- Y Terminal 1-UP/08:40 -- Y Terminal 1-DN/08:43 -- Y Terminal 2-DN/08:45 -- Crew Control-DN/09:13 -- 
+11,,,,,,506,Crew Control-DN,09:13,Crew Control-UP,09:47,00:34,34,01:02,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/09:13 -- Crew Control-UP/09:47 -- 
+11,,,,,,506,Crew Control-DN,10:49,Crew Control-UP,11:23,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/10:49 -- Crew Control-UP/11:23 -- 
+11,,,,,,506,Crew Control-UP,11:23,Crew Control-DN,12:25,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/11:23 -- Y Terminal 1-UP/11:53 -- Y Terminal 1-DN/11:56 -- Y Terminal 2-DN/11:58 -- Crew Control-DN/12:25 -- 
+11,,,,,,506,Crew Control-DN,12:25,Crew Control-UP,12:59,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/12:25 -- Crew Control-UP/12:59 -- 
+12,05:12,DEPOT1,13:24,Crew Control-UP,08:12,511,DEPOT1,05:37,Crew Control-UP,06:08,00:31,31,00:00,02:19,06:05,No StepBack,No StepBack,
+12,,,,,,511,Crew Control-UP,06:08,Crew Control-DN,07:21,01:14,74,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/06:08 -- Y Terminal 2-UP/06:35 -- Y Terminal 2-DN/06:54 -- Crew Control-DN/07:21 -- 
+12,,,,,,511,Crew Control-DN,07:21,Crew Control-UP,07:55,00:34,34,00:33,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/07:21 -- Crew Control-UP/07:55 -- 
+12,,,,,,503,Crew Control-DN,08:28,Crew Control-UP,09:02,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/08:28 -- Crew Control-UP/09:02 -- 
+12,,,,,,503,Crew Control-UP,09:02,Crew Control-DN,10:05,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/09:02 -- Y Terminal 2-UP/09:30 -- Y Terminal 2-DN/09:37 -- Crew Control-DN/10:05 -- 
+12,,,,,,503,Crew Control-DN,10:05,Crew Control-UP,10:39,00:34,34,00:59,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/10:05 -- Crew Control-UP/10:39 -- 
+12,,,,,,507,Crew Control-UP,11:38,Crew Control-DN,12:40,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/11:38 -- Y Terminal 1-UP/12:08 -- Y Terminal 1-DN/12:10 -- Y Terminal 2-DN/12:12 -- Crew Control-DN/12:40 -- 
+12,,,,,,507,Crew Control-DN,12:40,Crew Control-UP,13:14,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/12:40 -- Crew Control-UP/13:14 -- 
+13,05:15,DEPOT,13:05,Crew Control-DN,07:50,513,DEPOT,05:40,Crew Control-UP,06:00,00:20,20,00:00,02:08,05:48,No StepBack,No StepBack,
+13,,,,,,513,Crew Control-UP,06:00,Crew Control-DN,07:14,01:14,74,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/06:00 -- Y Terminal 1-UP/06:29 -- Y Terminal 1-DN/06:44 -- Y Terminal 2-DN/06:46 -- Crew Control-DN/07:14 -- 
+13,,,,,,513,Crew Control-DN,07:14,Crew Control-UP,07:48,00:34,34,00:30,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/07:14 -- Crew Control-UP/07:48 -- 
+13,,,,,,512,Crew Control-UP,08:18,Crew Control-DN,09:20,01:02,62,00:56,01:02,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/08:18 -- Y Terminal 2-UP/08:45 -- Y Terminal 2-DN/08:52 -- Crew Control-DN/09:20 -- 
+13,,,,,,508,Crew Control-UP,10:16,Crew Control-DN,11:19,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/10:16 -- Y Terminal 2-UP/10:44 -- Y Terminal 2-DN/10:51 -- Crew Control-DN/11:19 -- 
+13,,,,,,508,Crew Control-DN,11:19,Crew Control-UP,11:53,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/11:19 -- Crew Control-UP/11:53 -- 
+13,,,,,,508,Crew Control-UP,11:53,Crew Control-DN,12:55,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/11:53 -- Y Terminal 1-UP/12:22 -- Y Terminal 1-DN/12:25 -- Y Terminal 2-DN/12:27 -- Crew Control-DN/12:55 -- 
+14,05:15,DEPOT,13:27,Crew Control-DN,08:12,512,DEPOT,05:40,Crew Control-DN,06:00,00:20,20,00:00,02:38,05:50,No StepBack,No StepBack,
+14,,,,,,512,Crew Control-DN,06:00,Crew Control-UP,06:37,00:38,38,00:00,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/06:00 -- Crew Control-UP/06:37 -- 
+14,,,,,,512,Crew Control-UP,06:37,Crew Control-DN,07:44,01:06,66,00:00,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/06:37 -- Y Terminal 1-UP/07:07 -- Y Terminal 1-DN/07:14 -- Y Terminal 2-DN/07:16 -- Crew Control-DN/07:44 -- 
+14,,,,,,512,Crew Control-DN,07:44,Crew Control-UP,08:18,00:34,34,00:32,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/07:44 -- Crew Control-UP/08:18 -- 
+14,,,,,,513,Crew Control-DN,08:50,Crew Control-UP,09:24,00:34,34,01:15,00:34,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/08:50 -- Crew Control-UP/09:24 -- 
+14,,,,,,503,Crew Control-UP,10:39,Crew Control-DN,11:41,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/10:39 -- Y Terminal 1-UP/11:08 -- Y Terminal 1-DN/11:11 -- Y Terminal 2-DN/11:13 -- Crew Control-DN/11:41 -- 
+14,,,,,,503,Crew Control-DN,11:41,Crew Control-UP,12:15,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/11:41 -- Crew Control-UP/12:15 -- 
+14,,,,,,503,Crew Control-UP,12:15,Crew Control-DN,13:17,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/12:15 -- Y Terminal 2-UP/12:43 -- Y Terminal 2-DN/12:50 -- Crew Control-DN/13:17 -- 
+15,05:20,Y Terminal 1,13:35,Crew Control-DN,08:15,509,Y Terminal 1,05:45,Crew Control-DN,06:14,00:30,30,00:00,02:48,06:00,No StepBack,No StepBack,Train_No/509 -- Y Terminal 2-DN/05:47 -- Crew Control-DN/06:14 -- 
+15,,,,,,509,Crew Control-DN,06:14,Crew Control-UP,06:55,00:41,41,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/06:14 -- Crew Control-UP/06:55 -- 
+15,,,,,,509,Crew Control-UP,06:55,Crew Control-DN,07:58,01:03,63,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/06:55 -- Y Terminal 1-UP/07:25 -- Y Terminal 1-DN/07:29 -- Y Terminal 2-DN/07:31 -- Crew Control-DN/07:58 -- 
+15,,,,,,509,Crew Control-DN,07:58,Crew Control-UP,08:32,00:34,34,00:52,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/07:58 -- Crew Control-UP/08:32 -- 
+15,,,,,,513,Crew Control-UP,09:24,Crew Control-DN,10:27,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/09:24 -- Y Terminal 1-UP/09:54 -- Y Terminal 1-DN/09:57 -- Y Terminal 2-DN/09:59 -- Crew Control-DN/10:27 -- 
+15,,,,,,513,Crew Control-DN,10:27,Crew Control-UP,11:01,00:34,34,00:47,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/10:27 -- Crew Control-UP/11:01 -- 
+15,,,,,,510,Crew Control-DN,11:48,Crew Control-UP,12:22,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/11:48 -- Crew Control-UP/12:22 -- 
+15,,,,,,510,Crew Control-UP,12:22,Crew Control-DN,13:25,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/12:22 -- Y Terminal 1-UP/12:52 -- Y Terminal 1-DN/12:55 -- Y Terminal 2-DN/12:57 -- Crew Control-DN/13:25 -- 
+16,07:18,Crew Control-UP,15:16,Crew Control-UP,07:58,510,Crew Control-UP,07:33,Crew Control-DN,08:36,01:02,62,00:00,01:36,05:56,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/07:33 -- Y Terminal 2-UP/08:01 -- Y Terminal 2-DN/08:08 -- Crew Control-DN/08:36 -- 
+16,,,,,,510,Crew Control-DN,08:36,Crew Control-UP,09:10,00:34,34,00:40,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/08:36 -- Crew Control-UP/09:10 -- 
+16,,,,,,501,Crew Control-DN,09:50,Crew Control-UP,10:24,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/09:50 -- Crew Control-UP/10:24 -- 
+16,,,,,,501,Crew Control-UP,10:24,Crew Control-DN,11:26,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/10:24 -- Y Terminal 1-UP/10:53 -- Y Terminal 1-DN/10:56 -- Y Terminal 2-DN/10:58 -- Crew Control-DN/11:26 -- 
+16,,,,,,501,Crew Control-DN,11:26,Crew Control-UP,12:00,00:34,34,00:55,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/11:26 -- Crew Control-UP/12:00 -- 
+16,,,,,,508,Crew Control-DN,12:55,Crew Control-UP,13:29,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/12:55 -- Crew Control-UP/13:29 -- 
+16,,,,,,508,Crew Control-UP,13:29,Crew Control-DN,14:32,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/13:29 -- Y Terminal 2-UP/13:57 -- Y Terminal 2-DN/14:04 -- Crew Control-DN/14:32 -- 
+16,,,,,,508,Crew Control-DN,14:32,Crew Control-UP,15:06,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/14:32 -- Crew Control-UP/15:06 -- 
+17,07:33,Crew Control-UP,15:33,Crew Control-DN,08:00,513,Crew Control-UP,07:48,Crew Control-DN,08:50,01:02,62,01:07,01:02,05:50,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/07:48 -- Y Terminal 2-UP/08:16 -- Y Terminal 2-DN/08:23 -- Crew Control-DN/08:50 -- 
+17,,,,,,502,Crew Control-DN,09:57,Crew Control-UP,10:31,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/09:57 -- Crew Control-UP/10:31 -- 
+17,,,,,,502,Crew Control-UP,10:31,Crew Control-DN,11:34,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/10:31 -- Y Terminal 2-UP/10:59 -- Y Terminal 2-DN/11:06 -- Crew Control-DN/11:34 -- 
+17,,,,,,502,Crew Control-DN,11:34,Crew Control-UP,12:08,00:34,34,00:37,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/11:34 -- Crew Control-UP/12:08 -- 
+17,,,,,,511,Crew Control-UP,12:45,Crew Control-DN,13:47,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/12:45 -- Y Terminal 2-UP/13:12 -- Y Terminal 2-DN/13:19 -- Crew Control-DN/13:47 -- 
+17,,,,,,511,Crew Control-DN,13:47,Crew Control-UP,14:21,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/13:47 -- Crew Control-UP/14:21 -- 
+17,,,,,,511,Crew Control-UP,14:21,Crew Control-DN,15:23,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/14:21 -- Y Terminal 1-UP/14:51 -- Y Terminal 1-DN/14:54 -- Y Terminal 2-DN/14:56 -- Crew Control-DN/15:23 -- 
+18,07:48,Crew Control-UP,15:19,Crew Control-DN,07:31,505,Crew Control-UP,08:03,Crew Control-DN,09:05,01:02,62,00:34,01:02,05:16,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/08:03 -- Y Terminal 2-UP/08:31 -- Y Terminal 2-DN/08:37 -- Crew Control-DN/09:05 -- 
+18,,,,,,505,Crew Control-UP,09:39,Crew Control-DN,10:42,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/09:39 -- Y Terminal 1-UP/10:09 -- Y Terminal 1-DN/10:12 -- Y Terminal 2-DN/10:14 -- Crew Control-DN/10:42 -- 
+18,,,,,,505,Crew Control-DN,10:42,Crew Control-UP,11:16,00:34,34,01:14,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/10:42 -- Crew Control-UP/11:16 -- 
+18,,,,,,504,Crew Control-UP,12:30,Crew Control-DN,13:32,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/12:30 -- Y Terminal 2-UP/12:58 -- Y Terminal 2-DN/13:04 -- Crew Control-DN/13:32 -- 
+18,,,,,,504,Crew Control-DN,13:32,Crew Control-UP,14:06,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/13:32 -- Crew Control-UP/14:06 -- 
+18,,,,,,504,Crew Control-UP,14:06,Crew Control-DN,15:09,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/14:06 -- Y Terminal 1-UP/14:36 -- Y Terminal 1-DN/14:39 -- Y Terminal 2-DN/14:41 -- Crew Control-DN/15:09 -- 
+19,08:17,Crew Control-UP,15:48,Crew Control-DN,07:31,509,Crew Control-UP,08:32,Crew Control-DN,09:35,01:02,62,00:37,01:02,05:16,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/08:32 -- Y Terminal 2-UP/09:00 -- Y Terminal 2-DN/09:07 -- Crew Control-DN/09:35 -- 
+19,,,,,,510,Crew Control-DN,10:12,Crew Control-UP,10:46,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/10:12 -- Crew Control-UP/10:46 -- 
+19,,,,,,510,Crew Control-UP,10:46,Crew Control-DN,11:48,01:02,62,01:11,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/10:46 -- Y Terminal 2-UP/11:14 -- Y Terminal 2-DN/11:21 -- Crew Control-DN/11:48 -- 
+19,,,,,,506,Crew Control-UP,12:59,Crew Control-DN,14:02,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/12:59 -- Y Terminal 2-UP/13:27 -- Y Terminal 2-DN/13:34 -- Crew Control-DN/14:02 -- 
+19,,,,,,506,Crew Control-DN,14:02,Crew Control-UP,14:36,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/14:02 -- Crew Control-UP/14:36 -- 
+19,,,,,,506,Crew Control-UP,14:36,Crew Control-DN,15:38,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/14:36 -- Y Terminal 1-UP/15:06 -- Y Terminal 1-DN/15:08 -- Y Terminal 2-DN/15:10 -- Crew Control-DN/15:38 -- 
+20,08:43,Crew Control-DN,16:25,Crew Control-DN,07:42,511,Crew Control-DN,08:58,Crew Control-UP,09:32,00:34,34,00:00,01:36,05:50,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/08:58 -- Crew Control-UP/09:32 -- 
+20,,,,,,511,Crew Control-UP,09:32,Crew Control-DN,10:34,01:02,62,00:56,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/09:32 -- Y Terminal 2-UP/10:00 -- Y Terminal 2-DN/10:06 -- Crew Control-DN/10:34 -- 
+20,,,,,,512,Crew Control-UP,11:30,Crew Control-DN,12:33,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/11:30 -- Y Terminal 2-UP/11:58 -- Y Terminal 2-DN/12:05 -- Crew Control-DN/12:33 -- 
+20,,,,,,512,Crew Control-DN,12:33,Crew Control-UP,13:07,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/12:33 -- Crew Control-UP/13:07 -- 
+20,,,,,,512,Crew Control-UP,13:07,Crew Control-DN,14:09,01:02,62,00:30,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/13:07 -- Y Terminal 1-UP/13:37 -- Y Terminal 1-DN/13:39 -- Y Terminal 2-DN/13:41 -- Crew Control-DN/14:09 -- 
+20,,,,,,501,Crew Control-DN,14:39,Crew Control-UP,15:13,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/14:39 -- Crew Control-UP/15:13 -- 
+20,,,,,,501,Crew Control-UP,15:13,Crew Control-DN,16:15,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/15:13 -- Y Terminal 2-UP/15:41 -- Y Terminal 2-DN/15:48 -- Crew Control-DN/16:15 -- 
+21,09:12,Crew Control-DN,17:02,Crew Control-DN,07:50,507,Crew Control-DN,09:27,Crew Control-UP,10:01,00:34,34,00:00,01:36,05:50,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/09:27 -- Crew Control-UP/10:01 -- 
+21,,,,,,507,Crew Control-UP,10:01,Crew Control-DN,11:04,01:02,62,01:04,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/10:01 -- Y Terminal 2-UP/10:29 -- Y Terminal 2-DN/10:36 -- Crew Control-DN/11:04 -- 
+21,,,,,,502,Crew Control-UP,12:08,Crew Control-DN,13:10,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/12:08 -- Y Terminal 1-UP/12:37 -- Y Terminal 1-DN/12:40 -- Y Terminal 2-DN/12:42 -- Crew Control-DN/13:10 -- 
+21,,,,,,502,Crew Control-DN,13:10,Crew Control-UP,13:44,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/13:10 -- Crew Control-UP/13:44 -- 
+21,,,,,,502,Crew Control-UP,13:44,Crew Control-DN,14:46,01:02,62,00:30,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/13:44 -- Y Terminal 2-UP/14:12 -- Y Terminal 2-DN/14:19 -- Crew Control-DN/14:46 -- 
+21,,,,,,513,Crew Control-DN,15:16,Crew Control-UP,15:50,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/15:16 -- Crew Control-UP/15:50 -- 
+21,,,,,,513,Crew Control-UP,15:50,Crew Control-DN,16:52,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/15:50 -- Y Terminal 1-UP/16:20 -- Y Terminal 1-DN/16:23 -- Y Terminal 2-DN/16:25 -- Crew Control-DN/16:52 -- 
+22,09:32,Crew Control-UP,17:10,Crew Control-DN,07:38,506,Crew Control-UP,09:47,Crew Control-DN,10:49,01:02,62,01:11,01:02,05:16,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/09:47 -- Y Terminal 2-UP/10:14 -- Y Terminal 2-DN/10:21 -- Crew Control-DN/10:49 -- 
+22,,,,,,501,Crew Control-UP,12:00,Crew Control-DN,13:03,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/12:00 -- Y Terminal 2-UP/12:28 -- Y Terminal 2-DN/12:35 -- Crew Control-DN/13:03 -- 
+22,,,,,,501,Crew Control-DN,13:03,Crew Control-UP,13:37,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/13:03 -- Crew Control-UP/13:37 -- 
+22,,,,,,501,Crew Control-UP,13:37,Crew Control-DN,14:39,01:02,62,00:44,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/13:37 -- Y Terminal 1-UP/14:06 -- Y Terminal 1-DN/14:09 -- Y Terminal 2-DN/14:11 -- Crew Control-DN/14:39 -- 
+22,,,,,,511,Crew Control-DN,15:23,Crew Control-UP,15:57,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/15:23 -- Crew Control-UP/15:57 -- 
+22,,,,,,511,Crew Control-UP,15:57,Crew Control-DN,17:00,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/15:57 -- Y Terminal 2-UP/16:25 -- Y Terminal 2-DN/16:32 -- Crew Control-DN/17:00 -- 
+23,10:19,Crew Control-DN,17:59,Crew Control-UP,07:40,511,Crew Control-DN,10:34,Crew Control-UP,11:08,00:34,34,00:00,02:10,05:22,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/10:34 -- Crew Control-UP/11:08 -- 
+23,,,,,,511,Crew Control-UP,11:08,Crew Control-DN,12:11,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/11:08 -- Y Terminal 1-UP/11:38 -- Y Terminal 1-DN/11:41 -- Y Terminal 2-DN/11:43 -- Crew Control-DN/12:11 -- 
+23,,,,,,511,Crew Control-DN,12:11,Crew Control-UP,12:45,00:34,34,00:37,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/12:11 -- Crew Control-UP/12:45 -- 
+23,,,,,,509,Crew Control-UP,13:22,Crew Control-DN,14:24,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/13:22 -- Y Terminal 1-UP/13:51 -- Y Terminal 1-DN/13:54 -- Y Terminal 2-DN/13:56 -- Crew Control-DN/14:24 -- 
+23,,,,,,509,Crew Control-DN,14:24,Crew Control-UP,14:58,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/14:24 -- Crew Control-UP/14:58 -- 
+23,,,,,,509,Crew Control-UP,14:58,Crew Control-DN,16:01,01:02,62,01:14,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/14:58 -- Y Terminal 2-UP/15:26 -- Y Terminal 2-DN/15:33 -- Crew Control-DN/16:01 -- 
+23,,,,,,506,Crew Control-DN,17:15,Crew Control-UP,17:49,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/17:15 -- Crew Control-UP/17:49 -- 
+24,10:38,Crew Control-UP,17:36,Crew Control-UP,06:58,504,Crew Control-UP,10:53,Crew Control-DN,11:56,01:02,62,00:00,01:36,04:48,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/10:53 -- Y Terminal 1-UP/11:23 -- Y Terminal 1-DN/11:26 -- Y Terminal 2-DN/11:28 -- Crew Control-DN/11:56 -- 
+24,,,,,,504,Crew Control-DN,11:56,Crew Control-UP,12:30,00:34,34,00:44,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/11:56 -- Crew Control-UP/12:30 -- 
+24,,,,,,507,Crew Control-UP,13:14,Crew Control-DN,14:17,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/13:14 -- Y Terminal 2-UP/13:42 -- Y Terminal 2-DN/13:49 -- Crew Control-DN/14:17 -- 
+24,,,,,,507,Crew Control-DN,14:17,Crew Control-UP,14:51,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/14:17 -- Crew Control-UP/14:51 -- 
+24,,,,,,507,Crew Control-UP,14:51,Crew Control-DN,15:53,01:02,62,00:59,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/14:51 -- Y Terminal 1-UP/15:20 -- Y Terminal 1-DN/15:23 -- Y Terminal 2-DN/15:25 -- Crew Control-DN/15:53 -- 
+24,,,,,,513,Crew Control-DN,16:52,Crew Control-UP,17:26,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/16:52 -- Crew Control-UP/17:26 -- 
+25,10:56,Crew Control-DN,18:02,Crew Control-DN,07:06,509,Crew Control-DN,11:11,Crew Control-UP,11:45,00:34,34,00:00,02:10,04:48,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/11:11 -- Crew Control-UP/11:45 -- 
+25,,,,,,509,Crew Control-UP,11:45,Crew Control-DN,12:48,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/11:45 -- Y Terminal 2-UP/12:13 -- Y Terminal 2-DN/12:20 -- Crew Control-DN/12:48 -- 
+25,,,,,,509,Crew Control-DN,12:48,Crew Control-UP,13:22,00:34,34,00:47,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/12:48 -- Crew Control-UP/13:22 -- 
+25,,,,,,512,Crew Control-DN,14:09,Crew Control-UP,14:43,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/14:09 -- Crew Control-UP/14:43 -- 
+25,,,,,,512,Crew Control-UP,14:43,Crew Control-DN,15:46,01:02,62,01:03,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/14:43 -- Y Terminal 2-UP/15:11 -- Y Terminal 2-DN/15:18 -- Crew Control-DN/15:46 -- 
+25,,,,,,501,Crew Control-UP,16:49,Crew Control-DN,17:52,01:02,62,00:00,01:02,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/16:49 -- Y Terminal 1-UP/17:19 -- Y Terminal 1-DN/17:22 -- Y Terminal 2-DN/17:24 -- Crew Control-DN/17:52 -- 
+26,11:01,Crew Control-UP,18:36,Crew Control-UP,07:35,505,Crew Control-UP,11:16,Crew Control-DN,12:18,01:02,62,00:00,02:38,05:22,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/11:16 -- Y Terminal 2-UP/11:43 -- Y Terminal 2-DN/11:50 -- Crew Control-DN/12:18 -- 
+26,,,,,,505,Crew Control-DN,12:18,Crew Control-UP,12:52,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/12:18 -- Crew Control-UP/12:52 -- 
+26,,,,,,505,Crew Control-UP,12:52,Crew Control-DN,13:54,01:02,62,00:52,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/12:52 -- Y Terminal 1-UP/13:22 -- Y Terminal 1-DN/13:25 -- Y Terminal 2-DN/13:27 -- Crew Control-DN/13:54 -- 
+26,,,,,,502,Crew Control-DN,14:46,Crew Control-UP,15:20,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/14:46 -- Crew Control-UP/15:20 -- 
+26,,,,,,502,Crew Control-UP,15:20,Crew Control-DN,16:23,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/15:20 -- Y Terminal 1-UP/15:50 -- Y Terminal 1-DN/15:53 -- Y Terminal 2-DN/15:55 -- Crew Control-DN/16:23 -- 
+26,,,,,,502,Crew Control-DN,16:23,Crew Control-UP,16:57,00:34,34,00:55,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/16:23 -- Crew Control-UP/16:57 -- 
+26,,,,,,501,Crew Control-DN,17:52,Crew Control-UP,18:26,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/17:52 -- Crew Control-UP/18:26 -- 
+27,12:22,Crew Control-UP,20:23,Crew Control-DN,08:01,513,Crew Control-UP,12:37,Crew Control-DN,13:40,01:02,62,00:00,02:38,05:50,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/12:37 -- Y Terminal 1-UP/13:07 -- Y Terminal 1-DN/13:10 -- Y Terminal 2-DN/13:12 -- Crew Control-DN/13:40 -- 
+27,,,,,,513,Crew Control-DN,13:40,Crew Control-UP,14:14,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/13:40 -- Crew Control-UP/14:14 -- 
+27,,,,,,513,Crew Control-UP,14:14,Crew Control-DN,15:16,01:02,62,00:30,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/14:14 -- Y Terminal 2-UP/14:41 -- Y Terminal 2-DN/14:48 -- Crew Control-DN/15:16 -- 
+27,,,,,,512,Crew Control-DN,15:46,Crew Control-UP,16:20,00:34,34,01:14,00:34,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/15:46 -- Crew Control-UP/16:20 -- 
+27,,,,,,511,Crew Control-UP,17:34,Crew Control-DN,18:36,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/17:34 -- Y Terminal 1-UP/18:04 -- Y Terminal 1-DN/18:06 -- Y Terminal 2-DN/18:08 -- Crew Control-DN/18:36 -- 
+27,,,,,,511,Crew Control-DN,18:36,Crew Control-UP,19:10,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/18:36 -- Crew Control-UP/19:10 -- 
+27,,,,,,511,Crew Control-UP,19:10,Crew Control-DN,20:13,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/19:10 -- Y Terminal 2-UP/19:38 -- Y Terminal 2-DN/19:45 -- Crew Control-DN/20:13 -- 
+28,13:02,Crew Control-DN,20:20,Crew Control-UP,07:18,503,Crew Control-DN,13:17,Crew Control-UP,13:51,00:34,34,00:00,02:10,04:54,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/13:17 -- Crew Control-UP/13:51 -- 
+28,,,,,,503,Crew Control-UP,13:51,Crew Control-DN,14:54,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/13:51 -- Y Terminal 1-UP/14:21 -- Y Terminal 1-DN/14:24 -- Y Terminal 2-DN/14:26 -- Crew Control-DN/14:54 -- 
+28,,,,,,503,Crew Control-DN,14:54,Crew Control-UP,15:28,00:34,34,00:33,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/14:54 -- Crew Control-UP/15:28 -- 
+28,,,,,,509,Crew Control-DN,16:01,Crew Control-UP,16:35,00:34,34,00:51,00:34,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/16:01 -- Crew Control-UP/16:35 -- 
+28,,,,,,513,Crew Control-UP,17:26,Crew Control-DN,18:29,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/17:26 -- Y Terminal 2-UP/17:54 -- Y Terminal 2-DN/18:01 -- Crew Control-DN/18:29 -- 
+28,,,,,,513,Crew Control-DN,18:29,Crew Control-UP,19:03,00:34,34,00:33,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/18:29 -- Crew Control-UP/19:03 -- 
+28,,,,,,502,Crew Control-DN,19:36,Crew Control-UP,20:10,00:34,34,00:00,00:34,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/19:36 -- Crew Control-UP/20:10 -- 
+29,13:10,Crew Control-DN,21:15,Crew Control-DN,08:05,510,Crew Control-DN,13:25,Crew Control-UP,13:59,00:34,34,00:00,02:10,05:50,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/13:25 -- Crew Control-UP/13:59 -- 
+29,,,,,,510,Crew Control-UP,13:59,Crew Control-DN,15:01,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/13:59 -- Y Terminal 2-UP/14:27 -- Y Terminal 2-DN/14:33 -- Crew Control-DN/15:01 -- 
+29,,,,,,510,Crew Control-DN,15:01,Crew Control-UP,15:35,00:34,34,00:30,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/15:01 -- Crew Control-UP/15:35 -- 
+29,,,,,,505,Crew Control-UP,16:05,Crew Control-DN,17:07,01:02,62,01:19,01:02,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/16:05 -- Y Terminal 1-UP/16:35 -- Y Terminal 1-DN/16:37 -- Y Terminal 2-DN/16:39 -- Crew Control-DN/17:07 -- 
+29,,,,,,501,Crew Control-UP,18:26,Crew Control-DN,19:28,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/18:26 -- Y Terminal 2-UP/18:54 -- Y Terminal 2-DN/19:00 -- Crew Control-DN/19:28 -- 
+29,,,,,,501,Crew Control-DN,19:28,Crew Control-UP,20:02,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/19:28 -- Crew Control-UP/20:02 -- 
+29,,,,,,501,Crew Control-UP,20:02,Crew Control-DN,21:05,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/20:02 -- Y Terminal 1-UP/20:32 -- Y Terminal 1-DN/20:35 -- Y Terminal 2-DN/20:37 -- Crew Control-DN/21:05 -- 
+30,13:39,Crew Control-DN,21:40,Crew Control-DN,08:01,505,Crew Control-DN,13:54,Crew Control-UP,14:28,00:34,34,00:00,02:10,05:59,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/13:54 -- Crew Control-UP/14:28 -- 
+30,,,,,,505,Crew Control-UP,14:28,Crew Control-DN,15:31,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/14:28 -- Y Terminal 2-UP/14:56 -- Y Terminal 2-DN/15:03 -- Crew Control-DN/15:31 -- 
+30,,,,,,505,Crew Control-DN,15:31,Crew Control-UP,16:05,00:34,34,00:40,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/15:31 -- Crew Control-UP/16:05 -- 
+30,,,,,,504,Crew Control-DN,16:45,Crew Control-UP,17:19,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/16:45 -- Crew Control-UP/17:19 -- 
+30,,,,,,504,Crew Control-UP,17:19,Crew Control-DN,18:21,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/17:19 -- Y Terminal 1-UP/17:49 -- Y Terminal 1-DN/17:52 -- Y Terminal 2-DN/17:54 -- Crew Control-DN/18:21 -- 
+30,,,,,,504,Crew Control-DN,18:21,Crew Control-UP,18:55,00:34,34,00:55,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/18:21 -- Crew Control-UP/18:55 -- 
+30,,,,,,510,Crew Control-DN,19:50,Crew Control-UP,20:24,00:34,34,00:00,01:39,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/19:50 -- Crew Control-UP/20:24 -- 
+30,,,,,,510,Crew Control-UP,20:24,Crew Control-DN,21:30,01:05,65,00:00,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/20:24 -- Y Terminal 2-UP/20:52 -- Y Terminal 2-DN/21:02 -- Crew Control-DN/21:30 -- 
+31,14:51,Crew Control-UP,23:03,Y Terminal 2,08:12,508,Crew Control-UP,15:06,Crew Control-DN,16:08,01:02,62,00:59,01:02,05:58,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/15:06 -- Y Terminal 1-UP/15:35 -- Y Terminal 1-DN/15:38 -- Y Terminal 2-DN/15:40 -- Crew Control-DN/16:08 -- 
+31,,,,,,505,Crew Control-DN,17:07,Crew Control-UP,17:41,00:34,34,00:00,02:10,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/17:07 -- Crew Control-UP/17:41 -- 
+31,,,,,,505,Crew Control-UP,17:41,Crew Control-DN,18:44,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/17:41 -- Y Terminal 2-UP/18:09 -- Y Terminal 2-DN/18:16 -- Crew Control-DN/18:44 -- 
+31,,,,,,505,Crew Control-DN,18:44,Crew Control-UP,19:18,00:34,34,00:40,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/18:44 -- Crew Control-UP/19:18 -- 
+31,,,,,,504,Crew Control-DN,19:58,Crew Control-UP,20:32,00:34,34,00:00,02:46,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/19:58 -- Crew Control-UP/20:32 -- 
+31,,,,,,504,Crew Control-UP,20:32,Crew Control-DN,21:39,01:08,68,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/20:32 -- Y Terminal 1-UP/21:02 -- Y Terminal 1-DN/21:10 -- Y Terminal 2-DN/21:12 -- Crew Control-DN/21:39 -- 
+31,,,,,,504,Crew Control-DN,21:39,Crew Control-UP,22:15,00:36,36,00:00,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/21:39 -- Crew Control-UP/22:15 -- 
+31,,,,,,504,Crew Control-UP,22:15,Y Terminal 2,22:43,00:28,28,00:00,,,No StepBack,No StepBack,
+32,14:54,Crew Control-DN,23:04,DEPOT1,08:10,504,Crew Control-DN,15:09,Crew Control-UP,15:43,00:34,34,00:00,01:36,05:36,No StepBack,No StepBack,Train_No/504 -- Crew Control-DN/15:09 -- Crew Control-UP/15:43 -- 
+32,,,,,,504,Crew Control-UP,15:43,Crew Control-DN,16:45,01:02,62,01:29,,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/15:43 -- Y Terminal 2-UP/16:10 -- Y Terminal 2-DN/16:17 -- Crew Control-DN/16:45 -- 
+32,,,,,,510,Crew Control-DN,18:14,Crew Control-UP,18:48,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/18:14 -- Crew Control-UP/18:48 -- 
+32,,,,,,510,Crew Control-UP,18:48,Crew Control-DN,19:50,01:02,62,00:30,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/18:48 -- Y Terminal 1-UP/19:18 -- Y Terminal 1-DN/19:21 -- Y Terminal 2-DN/19:23 -- Crew Control-DN/19:50 -- 
+32,,,,,,505,Crew Control-DN,20:20,Crew Control-UP,20:54,00:34,34,00:00,02:24,,No StepBack,No StepBack,Train_No/505 -- Crew Control-DN/20:20 -- Crew Control-UP/20:54 -- 
+32,,,,,,505,Crew Control-UP,20:54,Crew Control-DN,22:02,01:08,68,00:00,,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/20:54 -- Y Terminal 2-UP/21:22 -- Y Terminal 2-DN/21:35 -- Crew Control-DN/22:02 -- 
+32,,,,,,505,Crew Control-DN,22:02,DEPOT1,22:44,00:42,42,00:00,,,No StepBack,No StepBack,
+33,15:13,Crew Control-UP,23:10,Crew Control-UP,07:57,503,Crew Control-UP,15:28,Crew Control-DN,16:30,01:02,62,00:00,02:38,06:05,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/15:28 -- Y Terminal 2-UP/15:56 -- Y Terminal 2-DN/16:02 -- Crew Control-DN/16:30 -- 
+33,,,,,,503,Crew Control-DN,16:30,Crew Control-UP,17:04,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/16:30 -- Crew Control-UP/17:04 -- 
+33,,,,,,503,Crew Control-UP,17:04,Crew Control-DN,18:07,01:02,62,00:56,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/17:04 -- Y Terminal 1-UP/17:34 -- Y Terminal 1-DN/17:37 -- Y Terminal 2-DN/17:39 -- Crew Control-DN/18:07 -- 
+33,,,,,,513,Crew Control-UP,19:03,Crew Control-DN,20:05,01:02,62,00:00,02:44,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/19:03 -- Y Terminal 1-UP/19:33 -- Y Terminal 1-DN/19:35 -- Y Terminal 2-DN/19:37 -- Crew Control-DN/20:05 -- 
+33,,,,,,513,Crew Control-DN,20:05,Crew Control-UP,20:39,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/20:05 -- Crew Control-UP/20:39 -- 
+33,,,,,,513,Crew Control-UP,20:39,Crew Control-DN,21:47,01:08,68,00:30,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/20:39 -- Y Terminal 2-UP/21:07 -- Y Terminal 2-DN/21:20 -- Crew Control-DN/21:47 -- 
+33,,,,,,512,Crew Control-DN,22:17,Crew Control-UP,23:00,00:43,43,00:00,00:43,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/22:17 -- Crew Control-UP/23:00 -- 
+34,15:20,Crew Control-UP,23:34,DEPOT1,08:14,510,Crew Control-UP,15:35,Crew Control-DN,16:38,01:02,62,00:00,01:36,05:44,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/15:35 -- Y Terminal 1-UP/16:05 -- Y Terminal 1-DN/16:08 -- Y Terminal 2-DN/16:10 -- Crew Control-DN/16:38 -- 
+34,,,,,,510,Crew Control-DN,16:38,Crew Control-UP,17:12,00:34,34,00:44,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/16:38 -- Crew Control-UP/17:12 -- 
+34,,,,,,512,Crew Control-UP,17:56,Crew Control-DN,18:59,01:02,62,00:00,01:36,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/17:56 -- Y Terminal 2-UP/18:24 -- Y Terminal 2-DN/18:31 -- Crew Control-DN/18:59 -- 
+34,,,,,,512,Crew Control-DN,18:59,Crew Control-UP,19:33,00:34,34,01:09,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/18:59 -- Crew Control-UP/19:33 -- 
+34,,,,,,507,Crew Control-DN,20:42,Crew Control-UP,21:16,00:34,34,00:00,02:32,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/20:42 -- Crew Control-UP/21:16 -- 
+34,,,,,,507,Crew Control-UP,21:16,Crew Control-DN,22:29,01:13,73,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/21:16 -- Y Terminal 1-UP/21:46 -- Y Terminal 1-DN/22:00 -- Y Terminal 2-DN/22:02 -- Crew Control-DN/22:29 -- 
+34,,,,,,507,Crew Control-DN,22:29,DEPOT1,23:14,00:45,45,00:00,,,No StepBack,No StepBack,
+35,15:23,Crew Control-DN,23:25,Crew Control-UP,08:02,506,Crew Control-DN,15:38,Crew Control-UP,16:12,00:34,34,00:00,01:36,05:37,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/15:38 -- Crew Control-UP/16:12 -- 
+35,,,,,,506,Crew Control-UP,16:12,Crew Control-DN,17:15,01:02,62,00:44,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/16:12 -- Y Terminal 2-UP/16:40 -- Y Terminal 2-DN/16:47 -- Crew Control-DN/17:15 -- 
+35,,,,,,502,Crew Control-DN,17:59,Crew Control-UP,18:33,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/17:59 -- Crew Control-UP/18:33 -- 
+35,,,,,,502,Crew Control-UP,18:33,Crew Control-DN,19:36,01:02,62,01:14,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/18:33 -- Y Terminal 1-UP/19:03 -- Y Terminal 1-DN/19:06 -- Y Terminal 2-DN/19:08 -- Crew Control-DN/19:36 -- 
+35,,,,,,509,Crew Control-DN,20:50,Crew Control-UP,21:25,00:35,35,00:00,02:25,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/20:50 -- Crew Control-UP/21:25 -- 
+35,,,,,,509,Crew Control-UP,21:25,Crew Control-DN,22:37,01:12,72,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/21:25 -- Y Terminal 2-UP/21:53 -- Y Terminal 2-DN/22:10 -- Crew Control-DN/22:37 -- 
+35,,,,,,509,Crew Control-DN,22:37,Crew Control-UP,23:15,00:38,38,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/22:37 -- Crew Control-UP/23:15 -- 
+36,15:38,Crew Control-DN,23:51,DEPOT1,08:13,507,Crew Control-DN,15:53,Crew Control-UP,16:27,00:34,34,00:00,02:10,05:45,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/15:53 -- Crew Control-UP/16:27 -- 
+36,,,,,,507,Crew Control-UP,16:27,Crew Control-DN,17:30,01:02,62,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/16:27 -- Y Terminal 2-UP/16:55 -- Y Terminal 2-DN/17:02 -- Crew Control-DN/17:30 -- 
+36,,,,,,507,Crew Control-DN,17:30,Crew Control-UP,18:04,00:34,34,01:14,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/17:30 -- Crew Control-UP/18:04 -- 
+36,,,,,,505,Crew Control-UP,19:18,Crew Control-DN,20:20,01:02,62,00:37,01:02,,No StepBack,No StepBack,Train_No/505 -- Crew Control-UP/19:18 -- Y Terminal 1-UP/19:47 -- Y Terminal 1-DN/19:50 -- Y Terminal 2-DN/19:52 -- Crew Control-DN/20:20 -- 
+36,,,,,,508,Crew Control-DN,20:57,Crew Control-UP,21:34,00:37,37,00:00,02:33,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/20:57 -- Crew Control-UP/21:34 -- 
+36,,,,,,508,Crew Control-UP,21:34,Crew Control-DN,22:44,01:10,70,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/21:34 -- Y Terminal 1-UP/22:04 -- Y Terminal 1-DN/22:15 -- Y Terminal 2-DN/22:17 -- Crew Control-DN/22:44 -- 
+36,,,,,,508,Crew Control-DN,22:44,DEPOT1,23:31,00:46,46,00:00,,,No StepBack,No StepBack,
+37,15:53,Crew Control-DN,00:06,DEPOT1,08:13,508,Crew Control-DN,16:08,Crew Control-UP,16:42,00:34,34,01:22,00:34,05:45,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/16:08 -- Crew Control-UP/16:42 -- 
+37,,,,,,507,Crew Control-UP,18:04,Crew Control-DN,19:06,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/18:04 -- Y Terminal 1-UP/18:33 -- Y Terminal 1-DN/18:36 -- Y Terminal 2-DN/18:38 -- Crew Control-DN/19:06 -- 
+37,,,,,,507,Crew Control-DN,19:06,Crew Control-UP,19:40,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-DN/19:06 -- Crew Control-UP/19:40 -- 
+37,,,,,,507,Crew Control-UP,19:40,Crew Control-DN,20:42,01:02,62,00:30,,,No StepBack,No StepBack,Train_No/507 -- Crew Control-UP/19:40 -- Y Terminal 2-UP/20:08 -- Y Terminal 2-DN/20:15 -- Crew Control-DN/20:42 -- 
+37,,,,,,502,Crew Control-DN,21:12,Crew Control-UP,21:52,00:40,40,00:00,02:33,,No StepBack,No StepBack,Train_No/502 -- Crew Control-DN/21:12 -- Crew Control-UP/21:52 -- 
+37,,,,,,502,Crew Control-UP,21:52,Crew Control-DN,22:59,01:07,67,00:00,,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/21:52 -- Y Terminal 1-UP/22:22 -- Y Terminal 1-DN/22:30 -- Y Terminal 2-DN/22:32 -- Crew Control-DN/22:59 -- 
+37,,,,,,502,Crew Control-DN,22:59,DEPOT1,23:46,00:46,46,00:00,,,No StepBack,No StepBack,
+38,16:00,Crew Control-DN,00:03,DEPOT,08:03,501,Crew Control-DN,16:15,Crew Control-UP,16:49,00:34,34,01:00,00:34,05:51,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/16:15 -- Crew Control-UP/16:49 -- 
+38,,,,,,506,Crew Control-UP,17:49,Crew Control-DN,18:51,01:02,62,00:00,02:38,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/17:49 -- Y Terminal 1-UP/18:18 -- Y Terminal 1-DN/18:21 -- Y Terminal 2-DN/18:23 -- Crew Control-DN/18:51 -- 
+38,,,,,,506,Crew Control-DN,18:51,Crew Control-UP,19:25,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/18:51 -- Crew Control-UP/19:25 -- 
+38,,,,,,506,Crew Control-UP,19:25,Crew Control-DN,20:28,01:02,62,00:37,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/19:25 -- Y Terminal 2-UP/19:53 -- Y Terminal 2-DN/20:00 -- Crew Control-DN/20:28 -- 
+38,,,,,,501,Crew Control-DN,21:05,Crew Control-UP,21:43,00:39,39,00:00,02:39,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/21:05 -- Crew Control-UP/21:43 -- 
+38,,,,,,501,Crew Control-UP,21:43,Crew Control-DN,22:47,01:04,64,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-UP/21:43 -- Y Terminal 2-UP/22:11 -- Y Terminal 2-DN/22:20 -- Crew Control-DN/22:47 -- 
+38,,,,,,501,Crew Control-DN,22:47,Crew Control-UP,23:23,00:36,36,00:00,,,No StepBack,No StepBack,Train_No/501 -- Crew Control-DN/22:47 -- Crew Control-UP/23:23 -- 
+38,,,,,,501,Crew Control-UP,23:23,DEPOT,23:43,00:20,20,00:00,,,No StepBack,No StepBack,
+39,16:05,Crew Control-UP,00:19,DEPOT1,08:14,512,Crew Control-UP,16:20,Crew Control-DN,17:22,01:02,62,00:00,01:36,05:40,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/16:20 -- Y Terminal 1-UP/16:49 -- Y Terminal 1-DN/16:52 -- Y Terminal 2-DN/16:54 -- Crew Control-DN/17:22 -- 
+39,,,,,,512,Crew Control-DN,17:22,Crew Control-UP,17:56,00:34,34,01:25,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/17:22 -- Crew Control-UP/17:56 -- 
+39,,,,,,508,Crew Control-DN,19:21,Crew Control-UP,19:55,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/19:21 -- Crew Control-UP/19:55 -- 
+39,,,,,,508,Crew Control-UP,19:55,Crew Control-DN,20:57,01:02,62,00:33,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/19:55 -- Y Terminal 2-UP/20:23 -- Y Terminal 2-DN/20:29 -- Crew Control-DN/20:57 -- 
+39,,,,,,510,Crew Control-DN,21:30,Crew Control-UP,22:07,00:37,37,00:00,02:28,,No StepBack,No StepBack,Train_No/510 -- Crew Control-DN/21:30 -- Crew Control-UP/22:07 -- 
+39,,,,,,510,Crew Control-UP,22:07,Crew Control-DN,23:14,01:07,67,00:00,,,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/22:07 -- Y Terminal 1-UP/22:37 -- Y Terminal 1-DN/22:45 -- Y Terminal 2-DN/22:47 -- Crew Control-DN/23:14 -- 
+39,,,,,,510,Crew Control-DN,23:14,DEPOT1,23:59,00:44,44,00:00,,,No StepBack,No StepBack,
+40,16:20,Crew Control-UP,00:34,DEPOT1,08:14,509,Crew Control-UP,16:35,Crew Control-DN,17:37,01:02,62,00:00,02:38,06:06,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/16:35 -- Y Terminal 1-UP/17:04 -- Y Terminal 1-DN/17:07 -- Y Terminal 2-DN/17:09 -- Crew Control-DN/17:37 -- 
+40,,,,,,509,Crew Control-DN,17:37,Crew Control-UP,18:11,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/17:37 -- Crew Control-UP/18:11 -- 
+40,,,,,,509,Crew Control-UP,18:11,Crew Control-DN,19:13,01:02,62,00:57,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/18:11 -- Y Terminal 2-UP/18:39 -- Y Terminal 2-DN/18:46 -- Crew Control-DN/19:13 -- 
+40,,,,,,502,Crew Control-UP,20:10,Crew Control-DN,21:12,01:02,62,00:35,01:02,,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/20:10 -- Y Terminal 2-UP/20:37 -- Y Terminal 2-DN/20:44 -- Crew Control-DN/21:12 -- 
+40,,,,,,513,Crew Control-DN,21:47,Crew Control-UP,22:21,00:34,34,00:00,02:26,,No StepBack,No StepBack,Train_No/513 -- Crew Control-DN/21:47 -- Crew Control-UP/22:21 -- 
+40,,,,,,513,Crew Control-UP,22:21,Crew Control-DN,23:29,01:08,68,00:00,,,No StepBack,No StepBack,Train_No/513 -- Crew Control-UP/22:21 -- Y Terminal 1-UP/22:51 -- Y Terminal 1-DN/23:00 -- Y Terminal 2-DN/23:02 -- Crew Control-DN/23:29 -- 
+40,,,,,,513,Crew Control-DN,23:29,DEPOT1,00:14,00:44,44,00:00,,,No StepBack,No StepBack,
+41,16:27,Crew Control-UP,00:16,Station 7,07:49,508,Crew Control-UP,16:42,Crew Control-DN,17:44,01:02,62,00:00,02:38,05:31,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/16:42 -- Y Terminal 2-UP/17:10 -- Y Terminal 2-DN/17:17 -- Crew Control-DN/17:44 -- 
+41,,,,,,508,Crew Control-DN,17:44,Crew Control-UP,18:18,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-DN/17:44 -- Crew Control-UP/18:18 -- 
+41,,,,,,508,Crew Control-UP,18:18,Crew Control-DN,19:21,01:02,62,00:52,,,No StepBack,No StepBack,Train_No/508 -- Crew Control-UP/18:18 -- Y Terminal 1-UP/18:48 -- Y Terminal 1-DN/18:51 -- Y Terminal 2-DN/18:53 -- Crew Control-DN/19:21 -- 
+41,,,,,,511,Crew Control-DN,20:13,Crew Control-UP,20:47,00:34,34,00:00,01:42,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/20:13 -- Crew Control-UP/20:47 -- 
+41,,,,,,511,Crew Control-UP,20:47,Crew Control-DN,21:54,01:08,68,00:51,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/20:47 -- Y Terminal 1-UP/21:16 -- Y Terminal 1-DN/21:25 -- Y Terminal 2-DN/21:27 -- Crew Control-DN/21:54 -- 
+41,,,,,,506,Crew Control-UP,22:45,Station 7,23:56,01:11,71,00:00,01:11,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/22:45 -- Y Terminal 2-DN/23:12 -- Y Terminal 1-UP/23:15 -- Y Terminal 1-DN/23:20 -- 
+42,16:42,Crew Control-UP,00:57,DEPOT,08:15,502,Crew Control-UP,16:57,Crew Control-DN,17:59,01:02,62,00:56,01:02,05:43,No StepBack,No StepBack,Train_No/502 -- Crew Control-UP/16:57 -- Y Terminal 2-UP/17:25 -- Y Terminal 2-DN/17:31 -- Crew Control-DN/17:59 -- 
+42,,,,,,504,Crew Control-UP,18:55,Crew Control-DN,19:58,01:02,62,00:30,01:02,,No StepBack,No StepBack,Train_No/504 -- Crew Control-UP/18:55 -- Y Terminal 2-UP/19:23 -- Y Terminal 2-DN/19:30 -- Crew Control-DN/19:58 -- 
+42,,,,,,506,Crew Control-DN,20:28,Crew Control-UP,21:02,00:34,34,00:00,02:18,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/20:28 -- Crew Control-UP/21:02 -- 
+42,,,,,,506,Crew Control-UP,21:02,Crew Control-DN,22:09,01:08,68,00:00,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-UP/21:02 -- Y Terminal 1-UP/21:31 -- Y Terminal 1-DN/21:40 -- Y Terminal 2-DN/21:42 -- Crew Control-DN/22:09 -- 
+42,,,,,,506,Crew Control-DN,22:09,Crew Control-UP,22:45,00:36,36,00:30,,,No StepBack,No StepBack,Train_No/506 -- Crew Control-DN/22:09 -- Crew Control-UP/22:45 -- 
+42,,,,,,509,Crew Control-UP,23:15,Crew Control-DN,00:17,01:01,61,00:00,01:21,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/23:15 -- Y Terminal 2-DN/23:42 -- Y Terminal 1-UP/23:45 -- Y Terminal 1-DN/23:48 -- Crew Control-DN/00:17 -- 
+42,,,,,,509,Crew Control-DN,00:17,DEPOT,00:37,00:20,20,00:00,,,No StepBack,No StepBack,
+43,16:45,Crew Control-DN,00:42,DEPOT,07:57,511,Crew Control-DN,17:00,Crew Control-UP,17:34,00:34,34,01:07,00:34,05:42,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/17:00 -- Crew Control-UP/17:34 -- 
+43,,,,,,503,Crew Control-UP,18:41,Crew Control-DN,19:43,01:02,62,00:00,02:41,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/18:41 -- Y Terminal 2-UP/19:08 -- Y Terminal 2-DN/19:15 -- Crew Control-DN/19:43 -- 
+43,,,,,,503,Crew Control-DN,19:43,Crew Control-UP,20:17,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/19:43 -- Crew Control-UP/20:17 -- 
+43,,,,,,503,Crew Control-UP,20:17,Crew Control-DN,21:22,01:05,65,00:32,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/20:17 -- Y Terminal 1-UP/20:47 -- Y Terminal 1-DN/20:53 -- Y Terminal 2-DN/20:55 -- Crew Control-DN/21:22 -- 
+43,,,,,,511,Crew Control-DN,21:54,Crew Control-UP,22:30,00:36,36,00:00,02:27,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/21:54 -- Crew Control-UP/22:30 -- 
+43,,,,,,511,Crew Control-UP,22:30,Crew Control-DN,23:27,00:57,57,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-UP/22:30 -- Y Terminal 2-UP/22:58 -- Y Terminal 2-DN/23:00 -- Crew Control-DN/23:27 -- 
+43,,,,,,511,Crew Control-DN,23:27,Crew Control-UP,00:02,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/511 -- Crew Control-DN/23:27 -- Crew Control-UP/00:02 -- 
+43,,,,,,511,Crew Control-UP,00:02,DEPOT,00:22,00:20,20,00:00,,,No StepBack,No StepBack,
+44,16:57,Crew Control-UP,00:22,DEPOT,07:25,510,Crew Control-UP,17:12,Crew Control-DN,18:14,01:02,62,00:59,01:02,05:18,No StepBack,No StepBack,Train_No/510 -- Crew Control-UP/17:12 -- Y Terminal 2-UP/17:39 -- Y Terminal 2-DN/17:46 -- Crew Control-DN/18:14 -- 
+44,,,,,,509,Crew Control-DN,19:13,Crew Control-UP,19:47,00:34,34,00:00,01:36,,No StepBack,No StepBack,Train_No/509 -- Crew Control-DN/19:13 -- Crew Control-UP/19:47 -- 
+44,,,,,,509,Crew Control-UP,19:47,Crew Control-DN,20:50,01:02,62,00:32,,,No StepBack,No StepBack,Train_No/509 -- Crew Control-UP/19:47 -- Y Terminal 1-UP/20:17 -- Y Terminal 1-DN/20:20 -- Y Terminal 2-DN/20:22 -- Crew Control-DN/20:50 -- 
+44,,,,,,503,Crew Control-DN,21:22,Crew Control-UP,22:00,00:38,38,00:00,02:40,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/21:22 -- Crew Control-UP/22:00 -- 
+44,,,,,,503,Crew Control-UP,22:00,Crew Control-DN,23:07,01:07,67,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-UP/22:00 -- Y Terminal 2-UP/22:28 -- Y Terminal 2-DN/22:40 -- Crew Control-DN/23:07 -- 
+44,,,,,,503,Crew Control-DN,23:07,Crew Control-UP,23:42,00:35,35,00:00,,,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/23:07 -- Crew Control-UP/23:42 -- 
+44,,,,,,503,Crew Control-UP,23:42,DEPOT,00:02,00:20,20,00:00,,,No StepBack,No StepBack,
+45,17:52,Crew Control-DN,00:39,DEPOT,06:47,503,Crew Control-DN,18:07,Crew Control-UP,18:41,00:34,34,00:52,00:34,04:36,No StepBack,No StepBack,Train_No/503 -- Crew Control-DN/18:07 -- Crew Control-UP/18:41 -- 
+45,,,,,,512,Crew Control-UP,19:33,Crew Control-DN,20:35,01:02,62,00:00,02:44,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/19:33 -- Y Terminal 1-UP/20:02 -- Y Terminal 1-DN/20:05 -- Y Terminal 2-DN/20:07 -- Crew Control-DN/20:35 -- 
+45,,,,,,512,Crew Control-DN,20:35,Crew Control-UP,21:09,00:34,34,00:00,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-DN/20:35 -- Crew Control-UP/21:09 -- 
+45,,,,,,512,Crew Control-UP,21:09,Crew Control-DN,22:17,01:08,68,00:43,,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/21:09 -- Y Terminal 2-UP/21:37 -- Y Terminal 2-DN/21:50 -- Crew Control-DN/22:17 -- 
+45,,,,,,512,Crew Control-UP,23:00,Crew Control-DN,23:59,00:58,58,00:00,01:18,,No StepBack,No StepBack,Train_No/512 -- Crew Control-UP/23:00 -- Y Terminal 2-UP/23:28 -- Y Terminal 2-DN/23:32 -- Crew Control-DN/23:59 -- 
+45,,,,,,512,Crew Control-DN,23:59,DEPOT,00:19,00:20,20,00:00,,,No StepBack,No StepBack,

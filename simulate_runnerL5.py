@@ -581,13 +581,13 @@ def main():
                 hours = 24
             elif hours == 1:
                 hours = 25
-            elif hours == 2:
-                hours = 26
+            # elif hours == 2:
+            #     hours = 26
             return f"{hours:02}:{minutes:02}"
 
         df['Start_Time'] = df['Start_Time'].apply(adjust_time)
         df['End_Time'] = df['End_Time'].apply(adjust_time)
-
+        print('FOR loop started 590line')
         for index, row in df.iterrows():
             df.at[index, 'Same Jurisdiction'] = 'yes'
             if pd.notna(df.at[index, 'TrainSBC1']) and df.at[index, 'TrainSBC1'] != '0':
@@ -603,36 +603,77 @@ def main():
                 df.at[index, 'Direction'] = 'DN' if df.at[index, 'LocationPick'] == 'CCDN' else 'UP' 
             else:
                 df.at[index, 'Direction'] = 'DN' if df.at[index, 'LocationRelieve'] == 'CCDN' else 'UP'
-
-        cols = ['Crew Control-UP', 'Y Terminal 1-DN','Y Terminal 2-DN', 'Y Terminal 2-UP', 'Y Terminal 1-UP', 'Crew Control-DN', 'CIPK-UP', 'CIPK-DN']
+        print('FOR ended 606')
+        cols = ['Crew Control-UP', 'Y Terminal 1-DN','Y Terminal 2-DN', 'Y Terminal 2-UP', 'Y Terminal 1-UP', 'Crew Control-DN']
         route = ''
+        print("DEBUG start 609")
 
-        for i in range(len(df)):   
-            trip_dict = {}
-            sorted_trip_dict = {}
-            for col in cols:
-                if pd.notnull(df.loc[i, col]):
-                    trip_dict[col] = df.loc[i, col]
-                
-                sorted_trip_dict = dict(sorted(trip_dict.items(), key= lambda pair: pair[1]))
-                
-            if len(sorted_trip_dict) > 1: # Ignore single station time value in route column
-                route += 'Train_No/' + str(df.loc[i, 'Train_No']) + " -- "
-                for key, value in sorted_trip_dict.items():
-                    if df.loc[i, 'Step Back Location'] == "Y Terminal 1":
-                        SB_location = "Y Terminal 1-UP"
-                    if df.loc[i, 'Step Back Location'] == "Y Terminal 2":
-                        SB_location = "Y Terminal 2-UP"
-                    if df.loc[i, 'Step Back Location'] == "No StepBack":
-                        SB_location = "No StepBack"
-                    
-                    if SB_location in str(key):
-                        route +=  str(key) + '/' + value.strftime("%H:%M") + " -- "
-                        route +=  'SB_Train_No/' + str(df.loc[i, 'Step Back Rake']) + " -- "
-                    else:
-                        route +=  str(key) + '/' + value.strftime("%H:%M") + " -- "
-            df.loc[i, 'ROUTE-VIA'] = route
-            route = ''
+        for i in range(len(df)):
+            try:
+                route = ""
+                trip_dict = {}
+                sorted_trip_dict = {}
+
+                # Cache row once (faster + safer)
+                row = df.iloc[i]
+
+                SB_location = None
+
+                for col in cols:
+                    try:
+                        value = row[col]
+
+                        if pd.notnull(value):
+                            trip_dict[col] = value
+
+                    except Exception as e:
+                        print(f"[ERROR] Row {i}, Column '{col}': {e}")
+                        raise
+
+                # Sort once, after collecting values
+                sorted_trip_dict = dict(
+                    sorted(trip_dict.items(), key=lambda pair: pair[1])
+                )
+
+                if len(sorted_trip_dict) > 1:
+                    route += f"Train_No/{row['Train_No']} -- "
+
+                    # Resolve SB_location safely
+                    sb_map = {
+                        "Y Terminal 1": "Y Terminal 1-UP",
+                        "Y Terminal 2": "Y Terminal 2-UP",
+                        "No StepBack": "No StepBack",
+                    }
+                    SB_location = sb_map.get(row["Step Back Location"])
+
+                    for key, value in sorted_trip_dict.items():
+                        try:
+                            if hasattr(value, "strftime"):
+                                time_str = value.strftime("%H:%M")
+                            else:
+                                raise TypeError(
+                                    f"Expected datetime, got {type(value)}"
+                                )
+
+                            route += f"{key}/{time_str} -- "
+
+                            if SB_location and SB_location in str(key):
+                                route += f"SB_Train_No/{row['Step Back Rake']} -- "
+
+                        except Exception as e:
+                            print(
+                                f"[ERROR] Row {i}, Key '{key}', Value '{value}': {e}"
+                            )
+                            raise
+
+                df.loc[row.name, "ROUTE-VIA"] = route
+
+            except Exception as e:
+                print(f"[FATAL] Failure at row {i}: {e}")
+                raise  # remove this if you want to continue processing rows
+
+        print("DEBUG end 636")
+
 
         df = df.reindex(columns= ['Train_No', 'LocationPick','Start_Time', 'LocationRelieve','End_Time','Direction','Service time',
                                 'Same Jurisdiction','Step Back Rake','Step Back Location','ROUTE-VIA'])
@@ -1325,6 +1366,100 @@ def main():
 
 
         duty2.to_excel(f"temp_files/trip_chart_{execution_id}.xlsx")
+
+
+        # ----------------------FORMATTING TC
+        import re
+
+        # ================= CONFIG =================
+
+        INPUT_FILE = "temp_files/trip_chart_{execution_id}.xlsx"
+        OUTPUT_FILE = "temp_files/final_trip_chart_{execution_id}.csv"
+
+        DATETIME_COLS = [
+            "Sign_On",
+            "Sign_Off",
+            "Trip_Start",
+            "Trip_End"
+        ]
+
+        DURATION_COLS = [
+            "ACTUAL_DUTYHOURS",
+            "Trip_Duration",
+            "breaks",
+            "Single_Run",
+            "Total_Run"
+        ]
+
+        # ================= HELPERS =================
+
+        def format_datetime_to_hhmm(val):
+            """Convert datetime to HH:MM"""
+            if pd.isna(val):
+                return ""
+            try:
+                return pd.to_datetime(val).strftime("%H:%M")
+            except Exception:
+                return ""
+
+        def format_duration_to_hhmm(val):
+            """
+            Handles:
+            - Excel time fractions (0.325694444)
+            - HH:MM strings
+            - H:M strings
+            """
+            if pd.isna(val):
+                return ""
+
+            val_str = str(val).strip()
+
+            if val_str == "":
+                return ""
+
+            # Case 1: Excel duration as float (fraction of day)
+            try:
+                f = float(val_str)
+                if 0 <= f < 1:
+                    total_minutes = round(f * 24 * 60)
+                    h = total_minutes // 60
+                    m = total_minutes % 60
+                    return f"{h:02d}:{m:02d}"
+            except ValueError:
+                pass
+
+            # Case 2: HH:MM or H:M string
+            match = re.fullmatch(r"(\d{1,2}):(\d{1,2})", val_str)
+            if match:
+                h, m = match.groups()
+                return f"{int(h):02d}:{int(m):02d}"
+
+            return ""
+
+        # ================= READ =================
+
+        # Read Excel WITHOUT forcing dtype
+        df = pd.read_excel(INPUT_FILE)
+
+        # Drop accidental index column
+        df = df.loc[:, ~df.columns.str.contains("^Unnamed")]
+
+        # ================= TRANSFORM =================
+
+        # Datetime columns
+        for col in DATETIME_COLS:
+            if col in df.columns:
+                df[col] = df[col].apply(format_datetime_to_hhmm)
+
+        # Duration columns
+        for col in DURATION_COLS:
+            if col in df.columns:
+                df[col] = df[col].apply(format_duration_to_hhmm)
+
+        # ================= SAVE =================
+
+        df.to_csv(OUTPUT_FILE, index=False)
+        print("✅ Saved correctly formatted file:", OUTPUT_FILE)
 
         # --------------Generate DC
 

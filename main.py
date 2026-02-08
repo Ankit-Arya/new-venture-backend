@@ -3,6 +3,7 @@ import json
 import signal
 from typing import Optional
 from fastapi import FastAPI, File, Form, HTTPException, Depends, UploadFile
+import pandas as pd
 from models.request_models import UserSignUp, UserLogin, TokenResponse
 from services.auth_service import register_user, authenticate_user, create_access_token
 from pymongo.mongo_client import MongoClient
@@ -581,3 +582,30 @@ async def get_file(file_id: str):
     )
 
 
+
+
+
+BASE_PATH = "temp_files"
+
+@app.get("/api/duty")
+def get_duty_summary(execution_id: str):
+    file_path = os.path.join(
+        BASE_PATH,
+        f"final_trip_chart_{execution_id}.csv"
+    )
+
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="Execution ID not found")
+
+    df = pd.read_csv(file_path)
+
+    # Drop empty rows
+    df = df.dropna(how="all")
+
+    # Convert NaN → empty string (frontend safe)
+    df = df.fillna("")
+
+    return {
+        "execution_id": execution_id,
+        "rows": df.to_dict(orient="records")
+    }
