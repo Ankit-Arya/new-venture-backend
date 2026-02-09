@@ -1842,5 +1842,111 @@
       "status": "WIP",
       "message": ""
     }
+  ],
+  "b4e2e961-d196-4702-afcb-e3f2978fc397": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - b4e2e961-d196-4702-afcb-e3f2978fc397",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "'Y Terminal 1-DN'"
+    }
+  ],
+  "572c22d1-bb18-4afd-869e-9c83e90892a4": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 572c22d1-bb18-4afd-869e-9c83e90892a4",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Process Cancelled",
+      "status": "cancelled",
+      "message": "User requested cancellation"
+    }
+  ],
+  "15f93bd7-dce5-4d15-875f-62193dfd61fb": [
+    {
+      "name": "Preparing simulation",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Save your UID for future ref - 15f93bd7-dce5-4d15-875f-62193dfd61fb",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 1 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 2 complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 3 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "STAGE 3 Complete",
+      "status": "completed",
+      "message": ""
+    },
+    {
+      "name": "STAGE 4 of 4 in progress",
+      "status": "WIP",
+      "message": ""
+    },
+    {
+      "name": "Pipeline Broke--",
+      "status": "error",
+      "message": "[Errno 2] No such file or directory: 'temp_files/trip_chart_{execution_id}.xlsx'"
+    }
   ]
 }
