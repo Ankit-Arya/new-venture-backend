@@ -1373,8 +1373,8 @@ def main():
 
         # ================= CONFIG =================
 
-        INPUT_FILE = "temp_files/trip_chart_{execution_id}.xlsx"
-        OUTPUT_FILE = "temp_files/final_trip_chart_{execution_id}.csv"
+        INPUT_FILE = f"temp_files/trip_chart_{execution_id}.xlsx"
+        OUTPUT_FILE = f"temp_files/final_trip_chart_{execution_id}.csv"
 
         DATETIME_COLS = [
             "Sign_On",
